@@ -314,5 +314,11 @@
   <ItemGroup>
     <None Include="Resources\password_protect_secure_security_privacy_lock_padlock_icon_219328.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\สีแดง สีชมพู สีครีม น่ารัก เรโทร สดใส ขนมหวาน คาเฟ่ โลโก้.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\สีแดง_สีชมพู_สีครีม_น่ารัก_เรโทร_สดใส_ขนมหวาน_คาเฟ่_โลโก้-removebg-preview.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
