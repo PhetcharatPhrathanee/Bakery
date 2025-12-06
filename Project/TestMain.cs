@@ -37,6 +37,7 @@ namespace Project
 
         private void TestMain_Load(object sender, EventArgs e)
         {
+            this.WindowState = FormWindowState.Maximized; // เปิดเต็มจอ
             ShowControl(new LoginForm());
         }
     }
