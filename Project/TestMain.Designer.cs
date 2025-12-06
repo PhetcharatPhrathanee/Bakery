@@ -33,22 +33,20 @@
             // 
             // panel1
             // 
-            this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel1.Location = new System.Drawing.Point(-131, -26);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(2219, 1244);
+            this.panel1.Size = new System.Drawing.Size(1246, 815);
             this.panel1.TabIndex = 0;
             // 
             // TestMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(1662, 1003);
+            this.ClientSize = new System.Drawing.Size(1246, 815);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "TestMain";
             this.Text = "เมธาพร เบเกอรี่";
             this.Load += new System.EventHandler(this.TestMain_Load);
