@@ -48,6 +48,48 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class\Class_ControlOpen.cs" />
+    <Compile Include="CustomerConfirmOderForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomerConfirmOderForm.Designer.cs">
+      <DependentUpon>CustomerConfirmOderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomerForm.Designer.cs">
+      <DependentUpon>CustomerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerProductForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomerProductForm.Designer.cs">
+      <DependentUpon>CustomerProductForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerShopForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomerShopForm.Designer.cs">
+      <DependentUpon>CustomerShopForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerStatusOrderForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomerStatusOrderForm.Designer.cs">
+      <DependentUpon>CustomerStatusOrderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditMaterialForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditMaterialForm.Designer.cs">
+      <DependentUpon>EditMaterialForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditProductForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditProductForm.Designer.cs">
+      <DependentUpon>EditProductForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -60,7 +102,85 @@
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="MaterialForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MaterialForm.Designer.cs">
+      <DependentUpon>MaterialForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NotificationDangerousForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NotificationDangerousForm.Designer.cs">
+      <DependentUpon>NotificationDangerousForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NotificationMenuForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NotificationMenuForm.Designer.cs">
+      <DependentUpon>NotificationMenuForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NotificationOderForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NotificationOderForm.Designer.cs">
+      <DependentUpon>NotificationOderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OderAllForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OderAllForm.Designer.cs">
+      <DependentUpon>OderAllForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OderDoneForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OderDoneForm.Designer.cs">
+      <DependentUpon>OderDoneForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderDoingForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OrderDoingForm.Designer.cs">
+      <DependentUpon>OrderDoingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderNewForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OrderNewForm.Designer.cs">
+      <DependentUpon>OrderNewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportMenuForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReportMenuForm.Designer.cs">
+      <DependentUpon>ReportMenuForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProductForm.Designer.cs">
+      <DependentUpon>ProductForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="PromptFormController.cs" />
+    <Compile Include="ReportFinancialForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReportFinancialForm.Designer.cs">
+      <DependentUpon>ReportFinancialForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportOderForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReportOderForm.Designer.cs">
+      <DependentUpon>ReportOderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportStockForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReportStockForm.Designer.cs">
+      <DependentUpon>ReportStockForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="TestMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,17 +189,86 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UserControl1.cs">
+    <Compile Include="RegisterForm.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UserControl1.Designer.cs">
-      <DependentUpon>UserControl1.cs</DependentUpon>
+    <Compile Include="RegisterForm.Designer.cs">
+      <DependentUpon>RegisterForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserInformation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInformation.Designer.cs">
+      <DependentUpon>UserInformation.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CustomerConfirmOderForm.resx">
+      <DependentUpon>CustomerConfirmOderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerForm.resx">
+      <DependentUpon>CustomerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerProductForm.resx">
+      <DependentUpon>CustomerProductForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerShopForm.resx">
+      <DependentUpon>CustomerShopForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerStatusOrderForm.resx">
+      <DependentUpon>CustomerStatusOrderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditMaterialForm.resx">
+      <DependentUpon>EditMaterialForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditProductForm.resx">
+      <DependentUpon>EditProductForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaterialForm.resx">
+      <DependentUpon>MaterialForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NotificationDangerousForm.resx">
+      <DependentUpon>NotificationDangerousForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NotificationMenuForm.resx">
+      <DependentUpon>NotificationMenuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NotificationOderForm.resx">
+      <DependentUpon>NotificationOderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OderAllForm.resx">
+      <DependentUpon>OderAllForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OderDoneForm.resx">
+      <DependentUpon>OderDoneForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderDoingForm.resx">
+      <DependentUpon>OrderDoingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderNewForm.resx">
+      <DependentUpon>OrderNewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductForm.resx">
+      <DependentUpon>ProductForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegisterForm.resx">
+      <DependentUpon>RegisterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportFinancialForm.resx">
+      <DependentUpon>ReportFinancialForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportMenuForm.resx">
+      <DependentUpon>ReportMenuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportOderForm.resx">
+      <DependentUpon>ReportOderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportStockForm.resx">
+      <DependentUpon>ReportStockForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TestMain.resx">
       <DependentUpon>TestMain.cs</DependentUpon>
@@ -94,6 +283,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="UserInformation.resx">
+      <DependentUpon>UserInformation.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
