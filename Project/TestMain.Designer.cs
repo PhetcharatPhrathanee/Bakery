@@ -48,7 +48,7 @@
             this.ClientSize = new System.Drawing.Size(1664, 1011);
             this.Controls.Add(this.panel1);
             this.Name = "TestMain";
-            this.Text = "Form1";
+            this.Text = "เมธาพร เบเกอรี่";
             this.Load += new System.EventHandler(this.TestMain_Load);
             this.ResumeLayout(false);
 
