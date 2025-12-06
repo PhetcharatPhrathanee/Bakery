@@ -107,5 +107,14 @@
   <ItemGroup>
     <None Include="Resources\cake_101954.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_icon_128706.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password_protect_secure_security_privacy_lock_padlock_icon_219328 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password_protect_secure_security_privacy_lock_padlock_icon_219328.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

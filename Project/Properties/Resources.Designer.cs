@@ -79,5 +79,35 @@ namespace Project.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap password_protect_secure_security_privacy_lock_padlock_icon_219328 {
+            get {
+                object obj = ResourceManager.GetObject("password_protect_secure_security_privacy_lock_padlock_icon_219328", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap password_protect_secure_security_privacy_lock_padlock_icon_219328__1_ {
+            get {
+                object obj = ResourceManager.GetObject("password_protect_secure_security_privacy_lock_padlock_icon_219328 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap user_icon_128706 {
+            get {
+                object obj = ResourceManager.GetObject("user_icon_128706", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
