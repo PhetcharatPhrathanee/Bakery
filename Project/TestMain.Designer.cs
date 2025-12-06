@@ -50,7 +50,7 @@
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "TestMain";
-            this.Text = "Form1";
+            this.Text = "เมธาพร เบเกอรี่";
             this.Load += new System.EventHandler(this.TestMain_Load);
             this.ResumeLayout(false);
 
