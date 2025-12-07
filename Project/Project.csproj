@@ -359,5 +359,8 @@
   <ItemGroup>
     <None Include="Resources\สีแดง_สีชมพู_สีครีม_น่ารัก_เรโทร_สดใส_ขนมหวาน_คาเฟ่_โลโก้__1_-removebg-preview.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\email-envelope-outline-shape-with-rounded-corners_icon-icons.com_56530.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

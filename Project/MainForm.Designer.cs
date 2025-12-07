@@ -28,28 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(60)))), ((int)(((byte)(47)))));
-            this.panel1.Location = new System.Drawing.Point(0, 3);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1580, 100);
-            this.panel1.TabIndex = 0;
             // 
             // MainForm
             // 
-            this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MainForm";
             this.Size = new System.Drawing.Size(1583, 853);
             this.ResumeLayout(false);
 
         }
-
-        private System.Windows.Forms.Panel panel1;
 
         #endregion
         // private System.Windows.Forms.CheckBox checkBox1;

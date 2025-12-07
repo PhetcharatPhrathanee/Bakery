@@ -113,6 +113,16 @@ namespace Project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap email_envelope_outline_shape_with_rounded_corners_icon_icons_com_56530 {
+            get {
+                object obj = ResourceManager.GetObject("email-envelope-outline-shape-with-rounded-corners_icon-icons.com_56530", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap password_protect_secure_security_privacy_lock_padlock_icon_219328 {
             get {
                 object obj = ResourceManager.GetObject("password_protect_secure_security_privacy_lock_padlock_icon_219328", resourceCulture);

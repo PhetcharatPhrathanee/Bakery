@@ -35,28 +35,28 @@
             this.txtUser = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.txtPass = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
@@ -150,18 +150,6 @@
             this.label1.TabIndex = 4;
             this.label1.Text = "ชื่อผู้ใช้";
             // 
-            // label4
-            // 
-            this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("TH Kodchasal", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.label4.Location = new System.Drawing.Point(451, 385);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(153, 47);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "ลืมรหัสผ่าน";
-            // 
             // txtPass
             // 
             this.txtPass.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -192,7 +180,7 @@
             this.label6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("TH Kodchasal", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(196, 604);
+            this.label6.Location = new System.Drawing.Point(171, 604);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(160, 43);
@@ -209,12 +197,24 @@
             this.panel2.Size = new System.Drawing.Size(1122, 1108);
             this.panel2.TabIndex = 10;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox1.Image = global::Project.Properties.Resources.สีแดง_สีชมพู_สีครีม_น่ารัก_เรโทร_สดใส_ขนมหวาน_คาเฟ่_โลโก้__2__removebg_preview;
+            this.pictureBox1.Location = new System.Drawing.Point(119, 107);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(844, 612);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.TabIndex = 8;
+            this.pictureBox1.TabStop = false;
+            // 
             // panel3
             // 
             this.panel3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.panel3.Controls.Add(this.linkLabel2);
             this.panel3.Controls.Add(this.radioButton1);
             this.panel3.Controls.Add(this.linkLabel1);
-            this.panel3.Controls.Add(this.label4);
             this.panel3.Controls.Add(this.pictureBox3);
             this.panel3.Controls.Add(this.label6);
             this.panel3.Controls.Add(this.txtPass);
@@ -246,21 +246,12 @@
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Font = new System.Drawing.Font("TH Kodchasal", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel1.LinkColor = System.Drawing.Color.Red;
-            this.linkLabel1.Location = new System.Drawing.Point(375, 604);
+            this.linkLabel1.Location = new System.Drawing.Point(399, 604);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(120, 43);
             this.linkLabel1.TabIndex = 10;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "สมัครเลย";
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::Project.Properties.Resources.สีแดง_สีชมพู_สีครีม_น่ารัก_เรโทร_สดใส_ขนมหวาน_คาเฟ่_โลโก้__1__removebg_preview;
-            this.pictureBox6.Location = new System.Drawing.Point(1495, 164);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(519, 184);
-            this.pictureBox6.TabIndex = 15;
-            this.pictureBox6.TabStop = false;
             // 
             // pictureBox3
             // 
@@ -281,6 +272,15 @@
             this.pictureBox2.TabIndex = 9;
             this.pictureBox2.TabStop = false;
             // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::Project.Properties.Resources.สีแดง_สีชมพู_สีครีม_น่ารัก_เรโทร_สดใส_ขนมหวาน_คาเฟ่_โลโก้__1__removebg_preview;
+            this.pictureBox6.Location = new System.Drawing.Point(1495, 164);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(519, 184);
+            this.pictureBox6.TabIndex = 15;
+            this.pictureBox6.TabStop = false;
+            // 
             // pictureBox4
             // 
             this.pictureBox4.Image = global::Project.Properties.Resources.Cake_with_biscuit_8_icon_icons_com_52561;
@@ -291,18 +291,6 @@
             this.pictureBox4.TabStop = false;
             this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox1.Image = global::Project.Properties.Resources.สีแดง_สีชมพู_สีครีม_น่ารัก_เรโทร_สดใส_ขนมหวาน_คาเฟ่_โลโก้__2__removebg_preview;
-            this.pictureBox1.Location = new System.Drawing.Point(119, 107);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(844, 612);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox1.TabIndex = 8;
-            this.pictureBox1.TabStop = false;
-            // 
             // pictureBox5
             // 
             this.pictureBox5.Image = global::Project.Properties.Resources.ดอกไม้1;
@@ -311,6 +299,18 @@
             this.pictureBox5.Size = new System.Drawing.Size(443, 534);
             this.pictureBox5.TabIndex = 14;
             this.pictureBox5.TabStop = false;
+            // 
+            // linkLabel2
+            // 
+            this.linkLabel2.AutoSize = true;
+            this.linkLabel2.Font = new System.Drawing.Font("TH Kodchasal", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel2.LinkColor = System.Drawing.Color.Black;
+            this.linkLabel2.Location = new System.Drawing.Point(471, 381);
+            this.linkLabel2.Name = "linkLabel2";
+            this.linkLabel2.Size = new System.Drawing.Size(153, 47);
+            this.linkLabel2.TabIndex = 13;
+            this.linkLabel2.TabStop = true;
+            this.linkLabel2.Text = "ลืมรหัสผ่าน";
             // 
             // LoginForm
             // 
@@ -326,17 +326,18 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "LoginForm";
             this.Size = new System.Drawing.Size(2560, 1255);
+            this.Load += new System.EventHandler(this.LoginForm_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
 
@@ -351,7 +352,6 @@
         private System.Windows.Forms.TextBox txtUser;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtPass;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label6;
@@ -364,5 +364,6 @@
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.LinkLabel linkLabel2;
     }
 }
