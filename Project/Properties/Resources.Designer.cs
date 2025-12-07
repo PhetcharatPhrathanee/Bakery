@@ -83,6 +83,36 @@ namespace Project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Cake_with_biscuit_8_icon_icons_com_52561 {
+            get {
+                object obj = ResourceManager.GetObject("Cake_with_biscuit_8_icon-icons.com_52561", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Cake_with_biscuit_8_icon_icons_com_52561__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Cake_with_biscuit_8_icon-icons.com_52561 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Cake_with_biscuit_8_icon_icons_com_52561__2_ {
+            get {
+                object obj = ResourceManager.GetObject("Cake_with_biscuit_8_icon-icons.com_52561 (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap password_protect_secure_security_privacy_lock_padlock_icon_219328 {
             get {
                 object obj = ResourceManager.GetObject("password_protect_secure_security_privacy_lock_padlock_icon_219328", resourceCulture);
@@ -103,9 +133,69 @@ namespace Project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap password_protect_secure_security_privacy_lock_padlock_icon_219328__1_1 {
+            get {
+                object obj = ResourceManager.GetObject("password_protect_secure_security_privacy_lock_padlock_icon_219328 (1)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap user_account_icon_145918 {
+            get {
+                object obj = ResourceManager.GetObject("user_account_icon_145918", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap user_icon_128706 {
             get {
                 object obj = ResourceManager.GetObject("user_icon_128706", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ดอกไม้ {
+            get {
+                object obj = ResourceManager.GetObject("ดอกไม้", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ดอกไม้_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("ดอกไม้-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ดอกไม้_removebg_preview1 {
+            get {
+                object obj = ResourceManager.GetObject("ดอกไม้-removebg-preview1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ดอกไม้1 {
+            get {
+                object obj = ResourceManager.GetObject("ดอกไม้1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +213,49 @@ namespace Project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap สีแดง_สีชมพู_สีครีม_น่ารัก_เรโทร_สดใส_ขนมหวาน_คาเฟ่_โลโก้__1__removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("สีแดง_สีชมพู_สีครีม_น่ารัก_เรโทร_สดใส_ขนมหวาน_คาเฟ่_โลโก้__1_-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap สีแดง_สีชมพู_สีครีม_น่ารัก_เรโทร_สดใส_ขนมหวาน_คาเฟ่_โลโก้__2_ {
+            get {
+                object obj = ResourceManager.GetObject("สีแดง สีชมพู สีครีม น่ารัก เรโทร สดใส ขนมหวาน คาเฟ่ โลโก้ (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap สีแดง_สีชมพู_สีครีม_น่ารัก_เรโทร_สดใส_ขนมหวาน_คาเฟ่_โลโก้__2__removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("สีแดง_สีชมพู_สีครีม_น่ารัก_เรโทร_สดใส_ขนมหวาน_คาเฟ่_โลโก้__2_-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap สีแดง_สีชมพู_สีครีม_น่ารัก_เรโทร_สดใส_ขนมหวาน_คาเฟ่_โลโก้_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("สีแดง_สีชมพู_สีครีม_น่ารัก_เรโทร_สดใส_ขนมหวาน_คาเฟ่_โลโก้-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap สีแดง_สีชมพู_สีครีม_น่ารัก_เรโทร_สดใส_ขนมหวาน_คาเฟ่_โลโก้_removebg_preview__1_ {
+            get {
+                object obj = ResourceManager.GetObject("สีแดง_สีชมพู_สีครีม_น่ารัก_เรโทร_สดใส_ขนมหวาน_คาเฟ่_โลโก้-removebg-preview (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

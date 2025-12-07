@@ -320,5 +320,44 @@
   <ItemGroup>
     <None Include="Resources\สีแดง_สีชมพู_สีครีม_น่ารัก_เรโทร_สดใส_ขนมหวาน_คาเฟ่_โลโก้-removebg-preview.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password_protect_secure_security_privacy_lock_padlock_icon_219328 %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_account_icon_145918.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cake_with_biscuit_8_icon-icons.com_52561.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\สีแดง สีชมพู สีครีม น่ารัก เรโทร สดใส ขนมหวาน คาเฟ่ โลโก้ %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\สีแดง_สีชมพู_สีครีม_น่ารัก_เรโทร_สดใส_ขนมหวาน_คาเฟ่_โลโก้__2_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cake_with_biscuit_8_icon-icons.com_52561 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cake_with_biscuit_8_icon-icons.com_52561 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ดอกไม้.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ดอกไม้-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ดอกไม้-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ดอกไม้1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\สีแดง_สีชมพู_สีครีม_น่ารัก_เรโทร_สดใส_ขนมหวาน_คาเฟ่_โลโก้-removebg-preview %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\สีแดง_สีชมพู_สีครีม_น่ารัก_เรโทร_สดใส_ขนมหวาน_คาเฟ่_โลโก้__1_-removebg-preview.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
