@@ -26,5 +26,20 @@ namespace Project
         {
             TestMain.FrmMain.ShowControl(new LoginForm());
         }
+
+        private void RegisterForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
