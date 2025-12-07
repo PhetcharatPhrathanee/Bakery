@@ -61,5 +61,15 @@ namespace Project
         {
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            TestMain.FrmMain.ShowControl(new RegisterForm());
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            TestMain.FrmMain.ShowControl(new RegisterForm());
+        }
     }
 }
