@@ -71,5 +71,10 @@ namespace Project
         {
             TestMain.FrmMain.ShowControl(new RegisterForm());
         }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

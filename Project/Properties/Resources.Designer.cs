@@ -173,6 +173,16 @@ namespace Project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap เมธาพร {
+            get {
+                object obj = ResourceManager.GetObject("เมธาพร", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ดอกไม้ {
             get {
                 object obj = ResourceManager.GetObject("ดอกไม้", resourceCulture);

@@ -30,245 +30,361 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RegisterForm));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.เมธาพรเบเกอรี่ = new System.Windows.Forms.Label();
+            this.เข้าสู่ระบบ = new System.Windows.Forms.Button();
+            this.ชื่อผู้ใช้ฃ = new System.Windows.Forms.Label();
             this.txtUser = new System.Windows.Forms.TextBox();
             this.txtPass = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.Email = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.รหัสผ่าน = new System.Windows.Forms.Label();
+            this.ยืนยันรหัสผ่าน = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.ยินดีต้อนรับ = new System.Windows.Forms.Label();
+            this.ยืนยัน = new System.Windows.Forms.Button();
+            this.ดูรหัสผ่าน1 = new System.Windows.Forms.CheckBox();
+            this.ดูรหัสผ่าน2 = new System.Windows.Forms.CheckBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.logo = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.user = new System.Windows.Forms.PictureBox();
+            this.password2 = new System.Windows.Forms.PictureBox();
+            this.mail = new System.Windows.Forms.PictureBox();
+            this.password1 = new System.Windows.Forms.PictureBox();
+            this.สมัครสมาชิก = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.user)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.password2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mail)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.password1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.สมัครสมาชิก)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(60)))), ((int)(((byte)(47)))));
-            this.panel1.Controls.Add(this.label5);
-            this.panel1.Controls.Add(this.button3);
-            this.panel1.Location = new System.Drawing.Point(4, 4);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Controls.Add(this.เมธาพรเบเกอรี่);
+            this.panel1.Controls.Add(this.เข้าสู่ระบบ);
+            this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(2560, 145);
+            this.panel1.Size = new System.Drawing.Size(1920, 118);
             this.panel1.TabIndex = 4;
             // 
-            // label5
+            // เมธาพรเบเกอรี่
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("TH Kodchasal", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(152)))), ((int)(((byte)(162)))));
-            this.label5.Location = new System.Drawing.Point(76, 20);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(404, 94);
-            this.label5.TabIndex = 2;
-            this.label5.Text = "เมธาพร เบเกอรี่";
+            this.เมธาพรเบเกอรี่.AutoSize = true;
+            this.เมธาพรเบเกอรี่.Font = new System.Drawing.Font("TH Kodchasal", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.เมธาพรเบเกอรี่.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(152)))), ((int)(((byte)(162)))));
+            this.เมธาพรเบเกอรี่.Location = new System.Drawing.Point(57, 16);
+            this.เมธาพรเบเกอรี่.Name = "เมธาพรเบเกอรี่";
+            this.เมธาพรเบเกอรี่.Size = new System.Drawing.Size(404, 94);
+            this.เมธาพรเบเกอรี่.TabIndex = 2;
+            this.เมธาพรเบเกอรี่.Text = "เมธาพร เบเกอรี่";
             // 
-            // button3
+            // เข้าสู่ระบบ
             // 
-            this.button3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(72)))), ((int)(((byte)(58)))));
-            this.button3.Font = new System.Drawing.Font("TH Kodchasal", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.button3.ForeColor = System.Drawing.Color.Snow;
-            this.button3.Location = new System.Drawing.Point(2107, 20);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(293, 94);
-            this.button3.TabIndex = 1;
-            this.button3.Text = "เข้าสู่ระบบ";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.เข้าสู่ระบบ.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.เข้าสู่ระบบ.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(72)))), ((int)(((byte)(58)))));
+            this.เข้าสู่ระบบ.Font = new System.Drawing.Font("TH Kodchasal", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.เข้าสู่ระบบ.ForeColor = System.Drawing.Color.Snow;
+            this.เข้าสู่ระบบ.Location = new System.Drawing.Point(1580, 16);
+            this.เข้าสู่ระบบ.Name = "เข้าสู่ระบบ";
+            this.เข้าสู่ระบบ.Size = new System.Drawing.Size(220, 76);
+            this.เข้าสู่ระบบ.TabIndex = 1;
+            this.เข้าสู่ระบบ.Text = "เข้าสู่ระบบ";
+            this.เข้าสู่ระบบ.UseVisualStyleBackColor = false;
+            this.เข้าสู่ระบบ.Click += new System.EventHandler(this.button3_Click);
             // 
-            // label1
+            // ชื่อผู้ใช้ฃ
             // 
-            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.White;
-            this.label1.Font = new System.Drawing.Font("TH Kodchasal", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(207, 255);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(139, 70);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "ชื่อผู้ใช้";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(107, 29);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(60, 63);
-            this.pictureBox2.TabIndex = 10;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(47, 315);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(60, 64);
-            this.pictureBox3.TabIndex = 11;
-            this.pictureBox3.TabStop = false;
+            this.ชื่อผู้ใช้ฃ.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.ชื่อผู้ใช้ฃ.AutoSize = true;
+            this.ชื่อผู้ใช้ฃ.BackColor = System.Drawing.Color.White;
+            this.ชื่อผู้ใช้ฃ.Font = new System.Drawing.Font("TH Kodchasal", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ชื่อผู้ใช้ฃ.Location = new System.Drawing.Point(5, 44);
+            this.ชื่อผู้ใช้ฃ.Name = "ชื่อผู้ใช้ฃ";
+            this.ชื่อผู้ใช้ฃ.Size = new System.Drawing.Size(139, 70);
+            this.ชื่อผู้ใช้ฃ.TabIndex = 5;
+            this.ชื่อผู้ใช้ฃ.Text = "ชื่อผู้ใช้";
+            this.ชื่อผู้ใช้ฃ.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtUser
             // 
             this.txtUser.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtUser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(232)))));
-            this.txtUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUser.Location = new System.Drawing.Point(449, 274);
-            this.txtUser.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtUser.Font = new System.Drawing.Font("TH Kodchasal", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUser.Location = new System.Drawing.Point(96, 117);
             this.txtUser.Name = "txtUser";
-            this.txtUser.Size = new System.Drawing.Size(529, 35);
+            this.txtUser.Size = new System.Drawing.Size(398, 50);
             this.txtUser.TabIndex = 12;
+            this.txtUser.TextChanged += new System.EventHandler(this.txtUser_TextChanged);
             // 
             // txtPass
             // 
             this.txtPass.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtPass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(232)))));
-            this.txtPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPass.Location = new System.Drawing.Point(389, 553);
-            this.txtPass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPass.Font = new System.Drawing.Font("TH Kodchasal", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPass.Location = new System.Drawing.Point(96, 368);
             this.txtPass.Name = "txtPass";
-            this.txtPass.Size = new System.Drawing.Size(529, 35);
+            this.txtPass.Size = new System.Drawing.Size(398, 50);
             this.txtPass.TabIndex = 13;
             // 
-            // label3
+            // Email
             // 
-            this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.White;
-            this.label3.Font = new System.Drawing.Font("TH Kodchasal", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(218, 381);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(140, 70);
-            this.label3.TabIndex = 14;
-            this.label3.Text = "E-mail";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            this.Email.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Email.AutoSize = true;
+            this.Email.BackColor = System.Drawing.Color.White;
+            this.Email.Font = new System.Drawing.Font("TH Kodchasal", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Email.Location = new System.Drawing.Point(4, 170);
+            this.Email.Name = "Email";
+            this.Email.Size = new System.Drawing.Size(140, 70);
+            this.Email.TabIndex = 14;
+            this.Email.Text = "E-mail";
+            this.Email.Click += new System.EventHandler(this.label3_Click);
             // 
             // textBox1
             // 
             this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(232)))));
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(389, 416);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Font = new System.Drawing.Font("TH Kodchasal", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(96, 242);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(529, 35);
+            this.textBox1.Size = new System.Drawing.Size(398, 50);
             this.textBox1.TabIndex = 15;
             // 
-            // label2
+            // รหัสผ่าน
             // 
-            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.White;
-            this.label2.Font = new System.Drawing.Font("TH Kodchasal", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(180, 553);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(178, 70);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "รหัสผ่าน";
+            this.รหัสผ่าน.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.รหัสผ่าน.AutoSize = true;
+            this.รหัสผ่าน.BackColor = System.Drawing.Color.White;
+            this.รหัสผ่าน.Font = new System.Drawing.Font("TH Kodchasal", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.รหัสผ่าน.Location = new System.Drawing.Point(3, 295);
+            this.รหัสผ่าน.Name = "รหัสผ่าน";
+            this.รหัสผ่าน.Size = new System.Drawing.Size(178, 70);
+            this.รหัสผ่าน.TabIndex = 6;
+            this.รหัสผ่าน.Text = "รหัสผ่าน";
             // 
-            // label4
+            // ยืนยันรหัสผ่าน
             // 
-            this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.White;
-            this.label4.Font = new System.Drawing.Font("TH Kodchasal", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(95, 671);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(286, 70);
-            this.label4.TabIndex = 16;
-            this.label4.Text = "ยืนยันรหัสผ่าน";
+            this.ยืนยันรหัสผ่าน.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.ยืนยันรหัสผ่าน.AutoSize = true;
+            this.ยืนยันรหัสผ่าน.BackColor = System.Drawing.Color.White;
+            this.ยืนยันรหัสผ่าน.Font = new System.Drawing.Font("TH Kodchasal", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ยืนยันรหัสผ่าน.Location = new System.Drawing.Point(5, 445);
+            this.ยืนยันรหัสผ่าน.Name = "ยืนยันรหัสผ่าน";
+            this.ยืนยันรหัสผ่าน.Size = new System.Drawing.Size(286, 70);
+            this.ยืนยันรหัสผ่าน.TabIndex = 16;
+            this.ยืนยันรหัสผ่าน.Text = "ยืนยันรหัสผ่าน";
             // 
             // textBox2
             // 
             this.textBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(232)))));
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(410, 690);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox2.Font = new System.Drawing.Font("TH Kodchasal", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(96, 518);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(529, 35);
+            this.textBox2.Size = new System.Drawing.Size(398, 50);
             this.textBox2.TabIndex = 17;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(232)))));
+            this.panel3.Controls.Add(this.logo);
+            this.panel3.Controls.Add(this.ยินดีต้อนรับ);
+            this.panel3.Location = new System.Drawing.Point(3, 120);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(842, 900);
+            this.panel3.TabIndex = 23;
+            // 
+            // ยินดีต้อนรับ
+            // 
+            this.ยินดีต้อนรับ.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.ยินดีต้อนรับ.AutoSize = true;
+            this.ยินดีต้อนรับ.Font = new System.Drawing.Font("TH Kodchasal", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.ยินดีต้อนรับ.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(72)))), ((int)(((byte)(58)))));
+            this.ยินดีต้อนรับ.Location = new System.Drawing.Point(170, 642);
+            this.ยินดีต้อนรับ.Name = "ยินดีต้อนรับ";
+            this.ยินดีต้อนรับ.Size = new System.Drawing.Size(472, 140);
+            this.ยินดีต้อนรับ.TabIndex = 7;
+            this.ยินดีต้อนรับ.Text = "ยินดีต้อนรับ";
+            // 
+            // ยืนยัน
+            // 
+            this.ยืนยัน.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.ยืนยัน.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(141)))), ((int)(((byte)(25)))));
+            this.ยืนยัน.Font = new System.Drawing.Font("TH Kodchasal", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.ยืนยัน.ForeColor = System.Drawing.Color.Snow;
+            this.ยืนยัน.Location = new System.Drawing.Point(96, 635);
+            this.ยืนยัน.Name = "ยืนยัน";
+            this.ยืนยัน.Size = new System.Drawing.Size(398, 72);
+            this.ยืนยัน.TabIndex = 25;
+            this.ยืนยัน.Text = "ยืนยัน";
+            this.ยืนยัน.UseVisualStyleBackColor = false;
+            // 
+            // ดูรหัสผ่าน1
+            // 
+            this.ดูรหัสผ่าน1.AutoSize = true;
+            this.ดูรหัสผ่าน1.Font = new System.Drawing.Font("TH Kodchasal", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ดูรหัสผ่าน1.Location = new System.Drawing.Point(339, 424);
+            this.ดูรหัสผ่าน1.Name = "ดูรหัสผ่าน1";
+            this.ดูรหัสผ่าน1.Size = new System.Drawing.Size(155, 51);
+            this.ดูรหัสผ่าน1.TabIndex = 26;
+            this.ดูรหัสผ่าน1.Text = "ดูรหัสผ่าน";
+            this.ดูรหัสผ่าน1.UseVisualStyleBackColor = true;
+            // 
+            // ดูรหัสผ่าน2
+            // 
+            this.ดูรหัสผ่าน2.AutoSize = true;
+            this.ดูรหัสผ่าน2.Font = new System.Drawing.Font("TH Kodchasal", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ดูรหัสผ่าน2.Location = new System.Drawing.Point(339, 574);
+            this.ดูรหัสผ่าน2.Name = "ดูรหัสผ่าน2";
+            this.ดูรหัสผ่าน2.Size = new System.Drawing.Size(155, 51);
+            this.ดูรหัสผ่าน2.TabIndex = 27;
+            this.ดูรหัสผ่าน2.Text = "ดูรหัสผ่าน";
+            this.ดูรหัสผ่าน2.UseVisualStyleBackColor = true;
+            this.ดูรหัสผ่าน2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.ยืนยัน);
+            this.panel2.Controls.Add(this.ดูรหัสผ่าน2);
+            this.panel2.Controls.Add(this.ชื่อผู้ใช้ฃ);
+            this.panel2.Controls.Add(this.ดูรหัสผ่าน1);
+            this.panel2.Controls.Add(this.textBox2);
+            this.panel2.Controls.Add(this.user);
+            this.panel2.Controls.Add(this.password2);
+            this.panel2.Controls.Add(this.txtUser);
+            this.panel2.Controls.Add(this.Email);
+            this.panel2.Controls.Add(this.txtPass);
+            this.panel2.Controls.Add(this.ยืนยันรหัสผ่าน);
+            this.panel2.Controls.Add(this.textBox1);
+            this.panel2.Controls.Add(this.mail);
+            this.panel2.Controls.Add(this.รหัสผ่าน);
+            this.panel2.Controls.Add(this.password1);
+            this.panel2.Location = new System.Drawing.Point(1136, 207);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(509, 776);
+            this.panel2.TabIndex = 28;
+            // 
+            // logo
+            // 
+            this.logo.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.logo.Image = ((System.Drawing.Image)(resources.GetObject("logo.Image")));
+            this.logo.Location = new System.Drawing.Point(89, 87);
+            this.logo.Name = "logo";
+            this.logo.Size = new System.Drawing.Size(633, 497);
+            this.logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.logo.TabIndex = 8;
+            this.logo.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(810, 586);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(332, 434);
+            this.pictureBox5.TabIndex = 24;
+            this.pictureBox5.TabStop = false;
+            // 
+            // user
+            // 
+            this.user.Image = ((System.Drawing.Image)(resources.GetObject("user.Image")));
+            this.user.Location = new System.Drawing.Point(34, 116);
+            this.user.Margin = new System.Windows.Forms.Padding(2);
+            this.user.Name = "user";
+            this.user.Size = new System.Drawing.Size(45, 51);
+            this.user.TabIndex = 10;
+            this.user.TabStop = false;
+            // 
+            // password2
+            // 
+            this.password2.Image = ((System.Drawing.Image)(resources.GetObject("password2.Image")));
+            this.password2.Location = new System.Drawing.Point(34, 516);
+            this.password2.Margin = new System.Windows.Forms.Padding(2);
+            this.password2.Name = "password2";
+            this.password2.Size = new System.Drawing.Size(45, 52);
+            this.password2.TabIndex = 11;
+            this.password2.TabStop = false;
+            // 
+            // mail
+            // 
+            this.mail.Image = global::Project.Properties.Resources.email_envelope_outline_shape_with_rounded_corners_icon_icons_com_56530;
+            this.mail.Location = new System.Drawing.Point(34, 242);
+            this.mail.Margin = new System.Windows.Forms.Padding(2);
+            this.mail.Name = "mail";
+            this.mail.Size = new System.Drawing.Size(75, 41);
+            this.mail.TabIndex = 19;
+            this.mail.TabStop = false;
+            this.mail.Click += new System.EventHandler(this.pictureBox4_Click);
+            // 
+            // password1
+            // 
+            this.password1.Image = ((System.Drawing.Image)(resources.GetObject("password1.Image")));
+            this.password1.Location = new System.Drawing.Point(34, 368);
+            this.password1.Margin = new System.Windows.Forms.Padding(2);
+            this.password1.Name = "password1";
+            this.password1.Size = new System.Drawing.Size(45, 52);
+            this.password1.TabIndex = 18;
+            this.password1.TabStop = false;
+            this.password1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // สมัครสมาชิก
+            // 
+            this.สมัครสมาชิก.Image = ((System.Drawing.Image)(resources.GetObject("สมัครสมาชิก.Image")));
+            this.สมัครสมาชิก.Location = new System.Drawing.Point(1595, 736);
+            this.สมัครสมาชิก.Margin = new System.Windows.Forms.Padding(2);
+            this.สมัครสมาชิก.Name = "สมัครสมาชิก";
+            this.สมัครสมาชิก.Size = new System.Drawing.Size(452, 370);
+            this.สมัครสมาชิก.TabIndex = 28;
+            this.สมัครสมาชิก.TabStop = false;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(28, 445);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox1.Location = new System.Drawing.Point(1136, 130);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(60, 64);
-            this.pictureBox1.TabIndex = 18;
+            this.pictureBox1.Size = new System.Drawing.Size(505, 90);
+            this.pictureBox1.TabIndex = 28;
             this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::Project.Properties.Resources.email_envelope_outline_shape_with_rounded_corners_icon_icons_com_56530;
-            this.pictureBox4.Location = new System.Drawing.Point(111, 175);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox4.TabIndex = 19;
-            this.pictureBox4.TabStop = false;
-            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(232)))));
-            this.panel2.Controls.Add(this.pictureBox4);
-            this.panel2.Controls.Add(this.textBox1);
-            this.panel2.Controls.Add(this.pictureBox3);
-            this.panel2.Controls.Add(this.pictureBox1);
-            this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.label4);
-            this.panel2.Controls.Add(this.textBox2);
-            this.panel2.Controls.Add(this.pictureBox2);
-            this.panel2.Controls.Add(this.label2);
-            this.panel2.Controls.Add(this.label1);
-            this.panel2.Controls.Add(this.txtPass);
-            this.panel2.Controls.Add(this.txtUser);
-            this.panel2.Location = new System.Drawing.Point(611, 329);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1176, 989);
-            this.panel2.TabIndex = 20;
             // 
             // RegisterForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel2);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Controls.Add(this.สมัครสมาชิก);
             this.Name = "RegisterForm";
-            this.Size = new System.Drawing.Size(2560, 1255);
+            this.Size = new System.Drawing.Size(1920, 1020);
             this.Load += new System.EventHandler(this.RegisterForm_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.logo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.user)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.password2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mail)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.password1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.สมัครสมาชิก)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -276,20 +392,29 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Label เมธาพรเบเกอรี่;
+        private System.Windows.Forms.Button เข้าสู่ระบบ;
+        private System.Windows.Forms.Label ชื่อผู้ใช้ฃ;
+        private System.Windows.Forms.PictureBox user;
+        private System.Windows.Forms.PictureBox password2;
         private System.Windows.Forms.TextBox txtUser;
         private System.Windows.Forms.TextBox txtPass;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label Email;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label รหัสผ่าน;
+        private System.Windows.Forms.Label ยืนยันรหัสผ่าน;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox password1;
+        private System.Windows.Forms.PictureBox mail;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.PictureBox logo;
+        private System.Windows.Forms.Label ยินดีต้อนรับ;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.Button ยืนยัน;
+        private System.Windows.Forms.CheckBox ดูรหัสผ่าน1;
+        private System.Windows.Forms.CheckBox ดูรหัสผ่าน2;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.PictureBox สมัครสมาชิก;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
