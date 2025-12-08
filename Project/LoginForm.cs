@@ -62,24 +62,19 @@ namespace Project
 
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            TestMain.FrmMain.ShowControl(new RegisterForm());
-        }
-
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            TestMain.FrmMain.ShowControl(new RegisterForm());
-        }
-
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void btRegisterForm(object sender, EventArgs e)
+        private void btRegisterForm_Click(object sender, EventArgs e)
         {
+            TestMain.FrmMain.ShowControl(new RegisterForm());
+        }
 
+        private void lbRegisterForm_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            TestMain.FrmMain.ShowControl(new RegisterForm());
         }
     }
 }
