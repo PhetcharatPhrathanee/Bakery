@@ -65,7 +65,6 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(60)))), ((int)(((byte)(47)))));
-            this.panel1.Controls.Add(this.btreturn);
             this.panel1.Controls.Add(this.เมธาพรเบเกอรี่);
             this.panel1.Controls.Add(this.btRegisterForm);
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -80,7 +79,7 @@
             this.btreturn.Font = new System.Drawing.Font("TH Kodchasal", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btreturn.ForeColor = System.Drawing.Color.White;
             this.btreturn.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btreturn.Location = new System.Drawing.Point(1821, 16);
+            this.btreturn.Location = new System.Drawing.Point(1788, 189);
             this.btreturn.Name = "btreturn";
             this.btreturn.Size = new System.Drawing.Size(78, 76);
             this.btreturn.TabIndex = 16;
@@ -333,6 +332,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.btreturn);
             this.Controls.Add(this.เข้าสู่ระบบ);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.คุกกี้);
