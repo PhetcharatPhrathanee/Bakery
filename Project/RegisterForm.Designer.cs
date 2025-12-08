@@ -54,6 +54,7 @@
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.สมัครสมาชิก = new System.Windows.Forms.PictureBox();
             this.สมัครสอบ = new System.Windows.Forms.PictureBox();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
@@ -351,11 +352,22 @@
             this.สมัครสอบ.TabIndex = 28;
             this.สมัครสอบ.TabStop = false;
             // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Location = new System.Drawing.Point(1017, 232);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(55, 13);
+            this.linkLabel1.TabIndex = 29;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "linkLabel1";
+            // 
             // RegisterForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox5);
@@ -379,6 +391,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.สมัครสมาชิก)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.สมัครสอบ)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -409,5 +422,6 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox สมัครสมาชิก;
         private System.Windows.Forms.PictureBox สมัครสอบ;
+        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }
