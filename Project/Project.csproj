@@ -392,5 +392,35 @@
   <ItemGroup>
     <None Include="Resources\icons8-left-50.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-bell-58.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-bell-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-bell-52.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-order-52.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-order-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-order-100 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-clipboard-list-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-new-product-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-new-product-100 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-report-100.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

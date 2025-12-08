@@ -117,7 +117,405 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;imgreturn.Name" xml:space="preserve">
+    <value>imgreturn</value>
+  </data>
+  <data name="&gt;&gt;imgreturn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imgreturn.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;imgreturn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;imguser.Name" xml:space="preserve">
+    <value>imguser</value>
+  </data>
+  <data name="&gt;&gt;imguser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imguser.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;imguser.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lbmtp.Name" xml:space="preserve">
+    <value>lbmtp</value>
+  </data>
+  <data name="&gt;&gt;lbmtp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbmtp.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;lbmtp.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 3</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1920, 118</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lbmtp.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbmtp.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Kodchasal, 48pt, style=Bold</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lbmtp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbmtp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 15</value>
+  </data>
+  <data name="lbmtp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>404, 94</value>
+  </data>
+  <data name="lbmtp.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lbmtp.Text" xml:space="preserve">
+    <value>เมธาพร เบเกอรี่</value>
+  </data>
+  <data name="&gt;&gt;lbmtp.Name" xml:space="preserve">
+    <value>lbmtp</value>
+  </data>
+  <data name="&gt;&gt;lbmtp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbmtp.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;lbmtp.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;imglogo.Name" xml:space="preserve">
+    <value>imglogo</value>
+  </data>
+  <data name="&gt;&gt;imglogo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imglogo.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;imglogo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lbwelcome.Name" xml:space="preserve">
+    <value>lbwelcome</value>
+  </data>
+  <data name="&gt;&gt;lbwelcome.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbwelcome.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;lbwelcome.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 114</value>
+  </data>
+  <data name="panel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>844, 947</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lbwelcome.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="lbwelcome.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbwelcome.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Kodchasal, 72pt, style=Bold</value>
+  </data>
+  <data name="lbwelcome.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbwelcome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 665</value>
+  </data>
+  <data name="lbwelcome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 140</value>
+  </data>
+  <data name="lbwelcome.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lbwelcome.Text" xml:space="preserve">
+    <value>ยินดีต้อนรับ</value>
+  </data>
+  <data name="&gt;&gt;lbwelcome.Name" xml:space="preserve">
+    <value>lbwelcome</value>
+  </data>
+  <data name="&gt;&gt;lbwelcome.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbwelcome.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;lbwelcome.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btreport.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Kodchasal, 30pt, style=Bold</value>
+  </data>
+  <data name="btreport.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btreport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1433, 600</value>
+  </data>
+  <data name="btreport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>354, 241</value>
+  </data>
+  <data name="btreport.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="btreport.Text" xml:space="preserve">
+    <value>ดูรายงานต่างๆ</value>
+  </data>
+  <data name="btreport.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="&gt;&gt;btreport.Name" xml:space="preserve">
+    <value>btreport</value>
+  </data>
+  <data name="&gt;&gt;btreport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btreport.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btreport.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btliststock.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Kodchasal, 30pt, style=Bold</value>
+  </data>
+  <data name="btliststock.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btliststock.Location" type="System.Drawing.Point, System.Drawing">
+    <value>989, 600</value>
+  </data>
+  <data name="btliststock.Size" type="System.Drawing.Size, System.Drawing">
+    <value>354, 241</value>
+  </data>
+  <data name="btliststock.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="btliststock.Text" xml:space="preserve">
+    <value>รายการสต๊อกสินค้า</value>
+  </data>
+  <data name="btliststock.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="&gt;&gt;btliststock.Name" xml:space="preserve">
+    <value>btliststock</value>
+  </data>
+  <data name="&gt;&gt;btliststock.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btliststock.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btliststock.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btListrawmaterials.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Kodchasal, 30pt, style=Bold</value>
+  </data>
+  <data name="btListrawmaterials.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btListrawmaterials.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1433, 286</value>
+  </data>
+  <data name="btListrawmaterials.Size" type="System.Drawing.Size, System.Drawing">
+    <value>354, 241</value>
+  </data>
+  <data name="btListrawmaterials.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="btListrawmaterials.Text" xml:space="preserve">
+    <value>รายการวัตถุดิบ</value>
+  </data>
+  <data name="btListrawmaterials.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="&gt;&gt;btListrawmaterials.Name" xml:space="preserve">
+    <value>btListrawmaterials</value>
+  </data>
+  <data name="&gt;&gt;btListrawmaterials.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btListrawmaterials.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btListrawmaterials.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btoder.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Kodchasal, 30pt, style=Bold</value>
+  </data>
+  <data name="btoder.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btoder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>989, 286</value>
+  </data>
+  <data name="btoder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>354, 241</value>
+  </data>
+  <data name="btoder.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="btoder.Text" xml:space="preserve">
+    <value>คำสั่งซื้อ</value>
+  </data>
+  <data name="btoder.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="&gt;&gt;btoder.Name" xml:space="preserve">
+    <value>btoder</value>
+  </data>
+  <data name="&gt;&gt;btoder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btoder.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btoder.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1708, 37</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="imgreturn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="imgreturn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 33</value>
+  </data>
+  <data name="imgreturn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 54</value>
+  </data>
+  <data name="imgreturn.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;imgreturn.Name" xml:space="preserve">
+    <value>imgreturn</value>
+  </data>
+  <data name="&gt;&gt;imgreturn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imgreturn.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;imgreturn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="imguser.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="imguser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1803, 33</value>
+  </data>
+  <data name="imguser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 54</value>
+  </data>
+  <data name="imguser.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;imguser.Name" xml:space="preserve">
+    <value>imguser</value>
+  </data>
+  <data name="&gt;&gt;imguser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imguser.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;imguser.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="imglogo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
   <data name="imglogo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAfQAAAH0CAYAAADL1t+KAAAABGdBTUEAALGPC/xhBQAA/8dJREFUeF7s
@@ -4191,5 +4589,53 @@
         OXPmzJkzZ86cOXPmzJkzZ86cOXPmzJkzZ86cOXPmzJkzZ86cOXPmzJkzZ86cOXPmzJkzZ86cOXPmbB/b
         /wcuMZ9bwRJPpQAAAABJRU5ErkJggg==
 </value>
+  </data>
+  <data name="imglogo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="imglogo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 110</value>
+  </data>
+  <data name="imglogo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>633, 497</value>
+  </data>
+  <data name="imglogo.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>CenterImage</value>
+  </data>
+  <data name="imglogo.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;imglogo.Name" xml:space="preserve">
+    <value>imglogo</value>
+  </data>
+  <data name="&gt;&gt;imglogo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imglogo.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;imglogo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>TH Kodchasal, 9.749999pt, style=Bold</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1920, 1020</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

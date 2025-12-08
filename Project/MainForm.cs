@@ -27,5 +27,25 @@ namespace Project
         {
             TestMain.FrmMain.ShowControl(new LoginForm());
         }
+
+        private void btoder_Click(object sender, EventArgs e)
+        {
+            TestMain.FrmMain.ShowControl(new ReportOderForm());
+        }
+
+        private void btListrawmaterials_Click(object sender, EventArgs e)
+        {
+            TestMain.FrmMain.ShowControl(new MaterialForm());
+        }
+
+        private void btliststock_Click(object sender, EventArgs e)
+        {
+            TestMain.FrmMain.ShowControl(new ReportStockForm());
+        }
+
+        private void btreport_Click(object sender, EventArgs e)
+        {
+            TestMain.FrmMain.ShowControl(new LoginForm());
+        }
     }
 }
