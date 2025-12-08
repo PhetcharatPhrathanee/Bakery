@@ -76,5 +76,10 @@ namespace Project
         {
 
         }
+
+        private void btRegisterForm(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
             this.panel1 = new System.Windows.Forms.Panel();
             this.เมธาพรเบเกอรี่ = new System.Windows.Forms.Label();
-            this.สมัครสมาชิก = new System.Windows.Forms.Button();
+            this.RegisterForm = new System.Windows.Forms.Button();
             this.ยินดีต้อนรับ = new System.Windows.Forms.Label();
             this.txtUser = new System.Windows.Forms.TextBox();
             this.ยืนยัน = new System.Windows.Forms.Button();
@@ -40,32 +40,34 @@
             this.รหัสผ่าน = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.logo = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.ดูรหัสผ่าน = new System.Windows.Forms.CheckBox();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.ลืมรหัสผ่าน = new System.Windows.Forms.LinkLabel();
-            this.ดูรหัสผ่าน = new System.Windows.Forms.CheckBox();
-            this.เข้าสู่ระบบ = new System.Windows.Forms.PictureBox();
             this.password = new System.Windows.Forms.PictureBox();
             this.user = new System.Windows.Forms.PictureBox();
+            this.เข้าสู่ระบบ = new System.Windows.Forms.PictureBox();
             this.คุกกี้ = new System.Windows.Forms.PictureBox();
-            this.logo = new System.Windows.Forms.PictureBox();
             this.ดอกไม้ = new System.Windows.Forms.PictureBox();
+            this.btreturn = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.เข้าสู่ระบบ)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.password)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.user)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.เข้าสู่ระบบ)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.คุกกี้)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ดอกไม้)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(60)))), ((int)(((byte)(47)))));
+            this.panel1.Controls.Add(this.btreturn);
             this.panel1.Controls.Add(this.เมธาพรเบเกอรี่);
-            this.panel1.Controls.Add(this.สมัครสมาชิก);
+            this.panel1.Controls.Add(this.RegisterForm);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1920, 118);
@@ -82,19 +84,19 @@
             this.เมธาพรเบเกอรี่.TabIndex = 2;
             this.เมธาพรเบเกอรี่.Text = "เมธาพร เบเกอรี่";
             // 
-            // สมัครสมาชิก
+            // RegisterForm
             // 
-            this.สมัครสมาชิก.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.สมัครสมาชิก.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(72)))), ((int)(((byte)(58)))));
-            this.สมัครสมาชิก.Font = new System.Drawing.Font("TH Kodchasal", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.สมัครสมาชิก.ForeColor = System.Drawing.Color.Snow;
-            this.สมัครสมาชิก.Location = new System.Drawing.Point(1580, 16);
-            this.สมัครสมาชิก.Name = "สมัครสมาชิก";
-            this.สมัครสมาชิก.Size = new System.Drawing.Size(220, 76);
-            this.สมัครสมาชิก.TabIndex = 1;
-            this.สมัครสมาชิก.Text = "สมัครสมาชิก";
-            this.สมัครสมาชิก.UseVisualStyleBackColor = false;
-            this.สมัครสมาชิก.Click += new System.EventHandler(this.button3_Click);
+            this.RegisterForm.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.RegisterForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(72)))), ((int)(((byte)(58)))));
+            this.RegisterForm.Font = new System.Drawing.Font("TH Kodchasal", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.RegisterForm.ForeColor = System.Drawing.Color.Snow;
+            this.RegisterForm.Location = new System.Drawing.Point(1580, 16);
+            this.RegisterForm.Name = "RegisterForm";
+            this.RegisterForm.Size = new System.Drawing.Size(220, 76);
+            this.RegisterForm.TabIndex = 1;
+            this.RegisterForm.Text = "สมัครสมาชิก";
+            this.RegisterForm.UseVisualStyleBackColor = false;
+            this.RegisterForm.Click += new System.EventHandler(this.btRegisterForm);
             // 
             // ยินดีต้อนรับ
             // 
@@ -185,10 +187,21 @@
             this.panel2.Controls.Add(this.logo);
             this.panel2.Controls.Add(this.ยินดีต้อนรับ);
             this.panel2.Location = new System.Drawing.Point(0, 112);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(842, 923);
             this.panel2.TabIndex = 10;
+            // 
+            // logo
+            // 
+            this.logo.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.logo.Image = ((System.Drawing.Image)(resources.GetObject("logo.Image")));
+            this.logo.Location = new System.Drawing.Point(89, 98);
+            this.logo.Name = "logo";
+            this.logo.Size = new System.Drawing.Size(633, 497);
+            this.logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.logo.TabIndex = 8;
+            this.logo.TabStop = false;
             // 
             // panel3
             // 
@@ -205,10 +218,22 @@
             this.panel3.Controls.Add(this.ชื่อผู้ใช้);
             this.panel3.Controls.Add(this.txtUser);
             this.panel3.Location = new System.Drawing.Point(1121, 288);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(500, 543);
             this.panel3.TabIndex = 11;
+            // 
+            // ดูรหัสผ่าน
+            // 
+            this.ดูรหัสผ่าน.AutoSize = true;
+            this.ดูรหัสผ่าน.Font = new System.Drawing.Font("TH Kodchasal", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ดูรหัสผ่าน.Location = new System.Drawing.Point(72, 306);
+            this.ดูรหัสผ่าน.Name = "ดูรหัสผ่าน";
+            this.ดูรหัสผ่าน.Size = new System.Drawing.Size(155, 51);
+            this.ดูรหัสผ่าน.TabIndex = 14;
+            this.ดูรหัสผ่าน.Text = "ดูรหัสผ่าน";
+            this.ดูรหัสผ่าน.UseVisualStyleBackColor = true;
+            this.ดูรหัสผ่าน.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // linkLabel2
             // 
@@ -237,28 +262,6 @@
             this.ลืมรหัสผ่าน.Text = "สมัครเลย";
             this.ลืมรหัสผ่าน.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
-            // ดูรหัสผ่าน
-            // 
-            this.ดูรหัสผ่าน.AutoSize = true;
-            this.ดูรหัสผ่าน.Font = new System.Drawing.Font("TH Kodchasal", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ดูรหัสผ่าน.Location = new System.Drawing.Point(72, 306);
-            this.ดูรหัสผ่าน.Name = "ดูรหัสผ่าน";
-            this.ดูรหัสผ่าน.Size = new System.Drawing.Size(155, 51);
-            this.ดูรหัสผ่าน.TabIndex = 14;
-            this.ดูรหัสผ่าน.Text = "ดูรหัสผ่าน";
-            this.ดูรหัสผ่าน.UseVisualStyleBackColor = true;
-            this.ดูรหัสผ่าน.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
-            // 
-            // เข้าสู่ระบบ
-            // 
-            this.เข้าสู่ระบบ.Image = ((System.Drawing.Image)(resources.GetObject("เข้าสู่ระบบ.Image")));
-            this.เข้าสู่ระบบ.Location = new System.Drawing.Point(1121, 133);
-            this.เข้าสู่ระบบ.Margin = new System.Windows.Forms.Padding(2);
-            this.เข้าสู่ระบบ.Name = "เข้าสู่ระบบ";
-            this.เข้าสู่ระบบ.Size = new System.Drawing.Size(389, 150);
-            this.เข้าสู่ระบบ.TabIndex = 15;
-            this.เข้าสู่ระบบ.TabStop = false;
-            // 
             // password
             // 
             this.password.Image = ((System.Drawing.Image)(resources.GetObject("password.Image")));
@@ -280,6 +283,16 @@
             this.user.TabIndex = 9;
             this.user.TabStop = false;
             // 
+            // เข้าสู่ระบบ
+            // 
+            this.เข้าสู่ระบบ.Image = ((System.Drawing.Image)(resources.GetObject("เข้าสู่ระบบ.Image")));
+            this.เข้าสู่ระบบ.Location = new System.Drawing.Point(1121, 133);
+            this.เข้าสู่ระบบ.Margin = new System.Windows.Forms.Padding(2);
+            this.เข้าสู่ระบบ.Name = "เข้าสู่ระบบ";
+            this.เข้าสู่ระบบ.Size = new System.Drawing.Size(389, 150);
+            this.เข้าสู่ระบบ.TabIndex = 15;
+            this.เข้าสู่ระบบ.TabStop = false;
+            // 
             // คุกกี้
             // 
             this.คุกกี้.Image = ((System.Drawing.Image)(resources.GetObject("คุกกี้.Image")));
@@ -291,17 +304,6 @@
             this.คุกกี้.TabStop = false;
             this.คุกกี้.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
-            // logo
-            // 
-            this.logo.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.logo.Image = ((System.Drawing.Image)(resources.GetObject("logo.Image")));
-            this.logo.Location = new System.Drawing.Point(89, 98);
-            this.logo.Name = "logo";
-            this.logo.Size = new System.Drawing.Size(633, 497);
-            this.logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.logo.TabIndex = 8;
-            this.logo.TabStop = false;
-            // 
             // ดอกไม้
             // 
             this.ดอกไม้.Image = ((System.Drawing.Image)(resources.GetObject("ดอกไม้.Image")));
@@ -311,6 +313,20 @@
             this.ดอกไม้.Size = new System.Drawing.Size(332, 434);
             this.ดอกไม้.TabIndex = 14;
             this.ดอกไม้.TabStop = false;
+            // 
+            // btreturn
+            // 
+            this.btreturn.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btreturn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(72)))), ((int)(((byte)(58)))));
+            this.btreturn.Font = new System.Drawing.Font("TH Kodchasal", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btreturn.ForeColor = System.Drawing.Color.White;
+            this.btreturn.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btreturn.Location = new System.Drawing.Point(1821, 16);
+            this.btreturn.Name = "btreturn";
+            this.btreturn.Size = new System.Drawing.Size(78, 76);
+            this.btreturn.TabIndex = 16;
+            this.btreturn.Text = "<";
+            this.btreturn.UseVisualStyleBackColor = false;
             // 
             // LoginForm
             // 
@@ -330,13 +346,13 @@
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.logo)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.เข้าสู่ระบบ)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.password)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.user)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.เข้าสู่ระบบ)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.คุกกี้)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.logo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ดอกไม้)).EndInit();
             this.ResumeLayout(false);
 
@@ -346,7 +362,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label ยินดีต้อนรับ;
         private System.Windows.Forms.PictureBox logo;
-        private System.Windows.Forms.Button สมัครสมาชิก;
+        private System.Windows.Forms.Button RegisterForm;
         private System.Windows.Forms.Label เมธาพรเบเกอรี่;
         private System.Windows.Forms.TextBox txtUser;
         private System.Windows.Forms.Button ยืนยัน;
@@ -364,5 +380,6 @@
         private System.Windows.Forms.PictureBox เข้าสู่ระบบ;
         private System.Windows.Forms.LinkLabel linkLabel2;
         private System.Windows.Forms.CheckBox ดูรหัสผ่าน;
+        private System.Windows.Forms.Button btreturn;
     }
 }
