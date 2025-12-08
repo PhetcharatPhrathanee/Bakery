@@ -365,5 +365,32 @@
   <ItemGroup>
     <None Include="Resources\เมธาพร.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_edit_icon_241064.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user-58.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-back-58.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-back-55.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-back-54.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-back-52.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-left-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-left-50.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -17,5 +17,15 @@ namespace Project
         {
             InitializeComponent();
         }
+
+        private void imguser_Click(object sender, EventArgs e)
+        {
+            TestMain.FrmMain.ShowControl(new UserInformation());
+        }
+
+        private void imgreturn_Click(object sender, EventArgs e)
+        {
+            TestMain.FrmMain.ShowControl(new LoginForm());
+        }
     }
 }

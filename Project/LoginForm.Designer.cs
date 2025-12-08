@@ -32,7 +32,6 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.lbmtp = new System.Windows.Forms.Label();
             this.btRegisterForm = new System.Windows.Forms.Button();
-            this.btreturn = new System.Windows.Forms.Button();
             this.lbwelcome = new System.Windows.Forms.Label();
             this.txtUser = new System.Windows.Forms.TextBox();
             this.ยืนยัน = new System.Windows.Forms.Button();
@@ -41,24 +40,25 @@
             this.lbpass = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.imglogo = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.cbshowpass = new System.Windows.Forms.CheckBox();
             this.linklbForgotpass = new System.Windows.Forms.LinkLabel();
             this.LinklbRegisterForm = new System.Windows.Forms.LinkLabel();
+            this.imglogin = new System.Windows.Forms.PictureBox();
             this.imgpassword = new System.Windows.Forms.PictureBox();
             this.imguser = new System.Windows.Forms.PictureBox();
-            this.imglogin = new System.Windows.Forms.PictureBox();
             this.คุกกี้ = new System.Windows.Forms.PictureBox();
+            this.imglogo = new System.Windows.Forms.PictureBox();
             this.ดอกไม้ = new System.Windows.Forms.PictureBox();
+            this.btreturn = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.imglogo)).BeginInit();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.imglogin)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgpassword)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imguser)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imglogin)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.คุกกี้)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imglogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ดอกไม้)).BeginInit();
             this.SuspendLayout();
             // 
@@ -96,20 +96,6 @@
             this.btRegisterForm.Text = "สมัครสมาชิก";
             this.btRegisterForm.UseVisualStyleBackColor = false;
             this.btRegisterForm.Click += new System.EventHandler(this.btRegisterForm_Click);
-            // 
-            // btreturn
-            // 
-            this.btreturn.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btreturn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(72)))), ((int)(((byte)(58)))));
-            this.btreturn.Font = new System.Drawing.Font("TH Kodchasal", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btreturn.ForeColor = System.Drawing.Color.White;
-            this.btreturn.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btreturn.Location = new System.Drawing.Point(1788, 189);
-            this.btreturn.Name = "btreturn";
-            this.btreturn.Size = new System.Drawing.Size(78, 76);
-            this.btreturn.TabIndex = 16;
-            this.btreturn.Text = "<";
-            this.btreturn.UseVisualStyleBackColor = false;
             // 
             // lbwelcome
             // 
@@ -203,17 +189,6 @@
             this.panel2.Size = new System.Drawing.Size(842, 923);
             this.panel2.TabIndex = 10;
             // 
-            // imglogo
-            // 
-            this.imglogo.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.imglogo.Image = ((System.Drawing.Image)(resources.GetObject("imglogo.Image")));
-            this.imglogo.Location = new System.Drawing.Point(89, 98);
-            this.imglogo.Name = "imglogo";
-            this.imglogo.Size = new System.Drawing.Size(633, 497);
-            this.imglogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.imglogo.TabIndex = 8;
-            this.imglogo.TabStop = false;
-            // 
             // panel3
             // 
             this.panel3.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -272,6 +247,16 @@
             this.LinklbRegisterForm.Text = "สมัครเลย";
             this.LinklbRegisterForm.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lbRegisterForm_LinkClicked);
             // 
+            // imglogin
+            // 
+            this.imglogin.Image = ((System.Drawing.Image)(resources.GetObject("imglogin.Image")));
+            this.imglogin.Location = new System.Drawing.Point(1121, 133);
+            this.imglogin.Margin = new System.Windows.Forms.Padding(2);
+            this.imglogin.Name = "imglogin";
+            this.imglogin.Size = new System.Drawing.Size(389, 150);
+            this.imglogin.TabIndex = 15;
+            this.imglogin.TabStop = false;
+            // 
             // imgpassword
             // 
             this.imgpassword.Image = ((System.Drawing.Image)(resources.GetObject("imgpassword.Image")));
@@ -292,16 +277,6 @@
             this.imguser.TabIndex = 9;
             this.imguser.TabStop = false;
             // 
-            // imglogin
-            // 
-            this.imglogin.Image = ((System.Drawing.Image)(resources.GetObject("imglogin.Image")));
-            this.imglogin.Location = new System.Drawing.Point(1121, 133);
-            this.imglogin.Margin = new System.Windows.Forms.Padding(2);
-            this.imglogin.Name = "imglogin";
-            this.imglogin.Size = new System.Drawing.Size(389, 150);
-            this.imglogin.TabIndex = 15;
-            this.imglogin.TabStop = false;
-            // 
             // คุกกี้
             // 
             this.คุกกี้.Image = ((System.Drawing.Image)(resources.GetObject("คุกกี้.Image")));
@@ -312,6 +287,17 @@
             this.คุกกี้.TabIndex = 13;
             this.คุกกี้.TabStop = false;
             // 
+            // imglogo
+            // 
+            this.imglogo.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.imglogo.Image = ((System.Drawing.Image)(resources.GetObject("imglogo.Image")));
+            this.imglogo.Location = new System.Drawing.Point(89, 98);
+            this.imglogo.Name = "imglogo";
+            this.imglogo.Size = new System.Drawing.Size(633, 497);
+            this.imglogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.imglogo.TabIndex = 8;
+            this.imglogo.TabStop = false;
+            // 
             // ดอกไม้
             // 
             this.ดอกไม้.Image = ((System.Drawing.Image)(resources.GetObject("ดอกไม้.Image")));
@@ -321,6 +307,20 @@
             this.ดอกไม้.Size = new System.Drawing.Size(332, 434);
             this.ดอกไม้.TabIndex = 14;
             this.ดอกไม้.TabStop = false;
+            // 
+            // btreturn
+            // 
+            this.btreturn.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btreturn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(72)))), ((int)(((byte)(58)))));
+            this.btreturn.Font = new System.Drawing.Font("TH Kodchasal", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btreturn.ForeColor = System.Drawing.Color.White;
+            this.btreturn.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btreturn.Location = new System.Drawing.Point(1740, 195);
+            this.btreturn.Name = "btreturn";
+            this.btreturn.Size = new System.Drawing.Size(78, 76);
+            this.btreturn.TabIndex = 16;
+            this.btreturn.Text = "<";
+            this.btreturn.UseVisualStyleBackColor = false;
             // 
             // LoginForm
             // 
@@ -340,13 +340,13 @@
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.imglogo)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.imglogin)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgpassword)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imguser)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imglogin)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.คุกกี้)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imglogo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ดอกไม้)).EndInit();
             this.ResumeLayout(false);
 
