@@ -15,11 +15,15 @@ namespace Project
 
         private void button1_Click(object sender, EventArgs e)
         {
-            // ตรวจสอบ user pass ตามต้องการ
+            // ตรวจสอบ admin
             if (txtUser.Text == "admin" && txtPass.Text == "1234")
             {
-                // ไปหน้า Main
                 TestMain.FrmMain.ShowControl(new MainForm());
+            }
+            // ตรวจสอบ user (ไปหน้า CustomerForm)
+            else if (txtUser.Text == "user" && txtPass.Text == "1234")
+            {
+                TestMain.FrmMain.ShowControl(new CustomerForm());
             }
             else
             {

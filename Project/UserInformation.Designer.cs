@@ -30,56 +30,81 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserInformation));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pbNotificationMenu = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.lbmtp = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.imglogo = new System.Windows.Forms.PictureBox();
             this.lbwelcome = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.imgphone = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.btconfirm = new System.Windows.Forms.Button();
             this.cbshowpass2 = new System.Windows.Forms.CheckBox();
             this.lbuser = new System.Windows.Forms.Label();
             this.cbshowpass1 = new System.Windows.Forms.CheckBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.imguser = new System.Windows.Forms.PictureBox();
+            this.imgpass2 = new System.Windows.Forms.PictureBox();
             this.txtUser = new System.Windows.Forms.TextBox();
             this.lbEmail = new System.Windows.Forms.Label();
             this.txtPass = new System.Windows.Forms.TextBox();
             this.lbconfirm = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.lbpass = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.imgRegisterForm = new System.Windows.Forms.PictureBox();
-            this.imgphone = new System.Windows.Forms.PictureBox();
-            this.imguser = new System.Windows.Forms.PictureBox();
-            this.imgpass2 = new System.Windows.Forms.PictureBox();
             this.mail = new System.Windows.Forms.PictureBox();
+            this.lbpass = new System.Windows.Forms.Label();
             this.imgpass1 = new System.Windows.Forms.PictureBox();
-            this.imglogo = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.imgRegisterForm = new System.Windows.Forms.PictureBox();
+            this.imgreturn = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbNotificationMenu)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.imglogo)).BeginInit();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.imgRegisterForm)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgphone)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imguser)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgpass2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.mail)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgpass1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imglogo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgRegisterForm)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgreturn)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(60)))), ((int)(((byte)(47)))));
-            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Controls.Add(this.imgreturn);
+            this.panel1.Controls.Add(this.pbNotificationMenu);
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Controls.Add(this.lbmtp);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1920, 118);
             this.panel1.TabIndex = 4;
+            // 
+            // pbNotificationMenu
+            // 
+            this.pbNotificationMenu.Image = global::Project.Properties.Resources.icons8_bell_52;
+            this.pbNotificationMenu.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.pbNotificationMenu.Location = new System.Drawing.Point(1709, 34);
+            this.pbNotificationMenu.Name = "pbNotificationMenu";
+            this.pbNotificationMenu.Size = new System.Drawing.Size(52, 52);
+            this.pbNotificationMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pbNotificationMenu.TabIndex = 23;
+            this.pbNotificationMenu.TabStop = false;
+            this.pbNotificationMenu.Click += new System.EventHandler(this.pbNotificationMenu_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Project.Properties.Resources.icons8_user_58;
+            this.pictureBox2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.pictureBox2.Location = new System.Drawing.Point(1804, 30);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(73, 54);
+            this.pictureBox2.TabIndex = 22;
+            this.pictureBox2.TabStop = false;
             // 
             // lbmtp
             // 
@@ -102,6 +127,17 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(842, 902);
             this.panel3.TabIndex = 24;
+            // 
+            // imglogo
+            // 
+            this.imglogo.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.imglogo.Image = ((System.Drawing.Image)(resources.GetObject("imglogo.Image")));
+            this.imglogo.Location = new System.Drawing.Point(89, 88);
+            this.imglogo.Name = "imglogo";
+            this.imglogo.Size = new System.Drawing.Size(633, 497);
+            this.imglogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.imglogo.TabIndex = 8;
+            this.imglogo.TabStop = false;
             // 
             // lbwelcome
             // 
@@ -139,6 +175,38 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(509, 880);
             this.panel2.TabIndex = 29;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(232)))));
+            this.textBox3.Font = new System.Drawing.Font("TH Kodchasal", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.Location = new System.Drawing.Point(96, 321);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(398, 50);
+            this.textBox3.TabIndex = 28;
+            // 
+            // imgphone
+            // 
+            this.imgphone.Image = global::Project.Properties.Resources.phone_handset_icon_icons_com_48252;
+            this.imgphone.Location = new System.Drawing.Point(34, 321);
+            this.imgphone.Margin = new System.Windows.Forms.Padding(2);
+            this.imgphone.Name = "imgphone";
+            this.imgphone.Size = new System.Drawing.Size(75, 53);
+            this.imgphone.TabIndex = 30;
+            this.imgphone.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.White;
+            this.label1.Font = new System.Drawing.Font("TH Kodchasal", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(7, 248);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(139, 70);
+            this.label1.TabIndex = 29;
+            this.label1.Text = "ชื่อผู้ใช้";
             // 
             // btconfirm
             // 
@@ -198,6 +266,26 @@
             this.textBox2.Size = new System.Drawing.Size(398, 50);
             this.textBox2.TabIndex = 17;
             // 
+            // imguser
+            // 
+            this.imguser.Image = ((System.Drawing.Image)(resources.GetObject("imguser.Image")));
+            this.imguser.Location = new System.Drawing.Point(34, 69);
+            this.imguser.Margin = new System.Windows.Forms.Padding(2);
+            this.imguser.Name = "imguser";
+            this.imguser.Size = new System.Drawing.Size(45, 51);
+            this.imguser.TabIndex = 10;
+            this.imguser.TabStop = false;
+            // 
+            // imgpass2
+            // 
+            this.imgpass2.Image = ((System.Drawing.Image)(resources.GetObject("imgpass2.Image")));
+            this.imgpass2.Location = new System.Drawing.Point(34, 595);
+            this.imgpass2.Margin = new System.Windows.Forms.Padding(2);
+            this.imgpass2.Name = "imgpass2";
+            this.imgpass2.Size = new System.Drawing.Size(45, 52);
+            this.imgpass2.TabIndex = 11;
+            this.imgpass2.TabStop = false;
+            // 
             // txtUser
             // 
             this.txtUser.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -252,6 +340,16 @@
             this.textBox1.Size = new System.Drawing.Size(398, 50);
             this.textBox1.TabIndex = 15;
             // 
+            // mail
+            // 
+            this.mail.Image = global::Project.Properties.Resources.email_envelope_outline_shape_with_rounded_corners_icon_icons_com_56530;
+            this.mail.Location = new System.Drawing.Point(34, 195);
+            this.mail.Margin = new System.Windows.Forms.Padding(2);
+            this.mail.Name = "mail";
+            this.mail.Size = new System.Drawing.Size(75, 41);
+            this.mail.TabIndex = 19;
+            this.mail.TabStop = false;
+            // 
             // lbpass
             // 
             this.lbpass.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -265,27 +363,15 @@
             this.lbpass.Text = "รหัสผ่าน";
             this.lbpass.Click += new System.EventHandler(this.lbpass_Click);
             // 
-            // textBox3
+            // imgpass1
             // 
-            this.textBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(232)))));
-            this.textBox3.Font = new System.Drawing.Font("TH Kodchasal", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(96, 321);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(398, 50);
-            this.textBox3.TabIndex = 28;
-            // 
-            // label1
-            // 
-            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.White;
-            this.label1.Font = new System.Drawing.Font("TH Kodchasal", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(7, 248);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(139, 70);
-            this.label1.TabIndex = 29;
-            this.label1.Text = "ชื่อผู้ใช้";
+            this.imgpass1.Image = ((System.Drawing.Image)(resources.GetObject("imgpass1.Image")));
+            this.imgpass1.Location = new System.Drawing.Point(34, 446);
+            this.imgpass1.Margin = new System.Windows.Forms.Padding(2);
+            this.imgpass1.Name = "imgpass1";
+            this.imgpass1.Size = new System.Drawing.Size(45, 52);
+            this.imgpass1.TabIndex = 18;
+            this.imgpass1.TabStop = false;
             // 
             // imgRegisterForm
             // 
@@ -297,87 +383,16 @@
             this.imgRegisterForm.TabIndex = 30;
             this.imgRegisterForm.TabStop = false;
             // 
-            // imgphone
+            // imgreturn
             // 
-            this.imgphone.Image = global::Project.Properties.Resources.phone_handset_icon_icons_com_48252;
-            this.imgphone.Location = new System.Drawing.Point(34, 321);
-            this.imgphone.Margin = new System.Windows.Forms.Padding(2);
-            this.imgphone.Name = "imgphone";
-            this.imgphone.Size = new System.Drawing.Size(75, 53);
-            this.imgphone.TabIndex = 30;
-            this.imgphone.TabStop = false;
-            // 
-            // imguser
-            // 
-            this.imguser.Image = ((System.Drawing.Image)(resources.GetObject("imguser.Image")));
-            this.imguser.Location = new System.Drawing.Point(34, 69);
-            this.imguser.Margin = new System.Windows.Forms.Padding(2);
-            this.imguser.Name = "imguser";
-            this.imguser.Size = new System.Drawing.Size(45, 51);
-            this.imguser.TabIndex = 10;
-            this.imguser.TabStop = false;
-            // 
-            // imgpass2
-            // 
-            this.imgpass2.Image = ((System.Drawing.Image)(resources.GetObject("imgpass2.Image")));
-            this.imgpass2.Location = new System.Drawing.Point(34, 595);
-            this.imgpass2.Margin = new System.Windows.Forms.Padding(2);
-            this.imgpass2.Name = "imgpass2";
-            this.imgpass2.Size = new System.Drawing.Size(45, 52);
-            this.imgpass2.TabIndex = 11;
-            this.imgpass2.TabStop = false;
-            // 
-            // mail
-            // 
-            this.mail.Image = global::Project.Properties.Resources.email_envelope_outline_shape_with_rounded_corners_icon_icons_com_56530;
-            this.mail.Location = new System.Drawing.Point(34, 195);
-            this.mail.Margin = new System.Windows.Forms.Padding(2);
-            this.mail.Name = "mail";
-            this.mail.Size = new System.Drawing.Size(75, 41);
-            this.mail.TabIndex = 19;
-            this.mail.TabStop = false;
-            // 
-            // imgpass1
-            // 
-            this.imgpass1.Image = ((System.Drawing.Image)(resources.GetObject("imgpass1.Image")));
-            this.imgpass1.Location = new System.Drawing.Point(34, 446);
-            this.imgpass1.Margin = new System.Windows.Forms.Padding(2);
-            this.imgpass1.Name = "imgpass1";
-            this.imgpass1.Size = new System.Drawing.Size(45, 52);
-            this.imgpass1.TabIndex = 18;
-            this.imgpass1.TabStop = false;
-            // 
-            // imglogo
-            // 
-            this.imglogo.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.imglogo.Image = ((System.Drawing.Image)(resources.GetObject("imglogo.Image")));
-            this.imglogo.Location = new System.Drawing.Point(89, 88);
-            this.imglogo.Name = "imglogo";
-            this.imglogo.Size = new System.Drawing.Size(633, 497);
-            this.imglogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.imglogo.TabIndex = 8;
-            this.imglogo.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Project.Properties.Resources.icons8_bell_52;
-            this.pictureBox1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.pictureBox1.Location = new System.Drawing.Point(1709, 34);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(52, 52);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox1.TabIndex = 23;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Project.Properties.Resources.icons8_user_58;
-            this.pictureBox2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.pictureBox2.Location = new System.Drawing.Point(1804, 30);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(73, 54);
-            this.pictureBox2.TabIndex = 22;
-            this.pictureBox2.TabStop = false;
+            this.imgreturn.Image = global::Project.Properties.Resources.icons8_left_50;
+            this.imgreturn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.imgreturn.Location = new System.Drawing.Point(12, 34);
+            this.imgreturn.Name = "imgreturn";
+            this.imgreturn.Size = new System.Drawing.Size(53, 54);
+            this.imgreturn.TabIndex = 31;
+            this.imgreturn.TabStop = false;
+            this.imgreturn.Click += new System.EventHandler(this.imgreturn_Click);
             // 
             // UserInformation
             // 
@@ -392,19 +407,20 @@
             this.Size = new System.Drawing.Size(1920, 1020);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbNotificationMenu)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.imglogo)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.imgRegisterForm)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgphone)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imguser)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgpass2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.mail)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgpass1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imglogo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgRegisterForm)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgreturn)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -435,8 +451,9 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.PictureBox imgphone;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pbNotificationMenu;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox imgRegisterForm;
+        private System.Windows.Forms.PictureBox imgreturn;
     }
 }

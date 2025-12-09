@@ -60,6 +60,12 @@
     <Compile Include="CustomerForm.Designer.cs">
       <DependentUpon>CustomerForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="CustomerOrderHistory.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomerOrderHistory.Designer.cs">
+      <DependentUpon>CustomerOrderHistory.cs</DependentUpon>
+    </Compile>
     <Compile Include="CustomerProductForm.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -206,6 +212,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CustomerForm.resx">
       <DependentUpon>CustomerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerOrderHistory.resx">
+      <DependentUpon>CustomerOrderHistory.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CustomerProductForm.resx">
       <DependentUpon>CustomerProductForm.cs</DependentUpon>
@@ -430,6 +439,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\สีแดง สีชมพู สีครีม น่ารัก เรโทร สดใส ขนมหวาน คาเฟ่ โลโก้ %282%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basket_essential_basic_buy_ux_online_shopping_cart_ui_icon_219917.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cart_basket_shopping_icon_179220.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

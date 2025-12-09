@@ -30,34 +30,47 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pbNotificationMenu = new System.Windows.Forms.PictureBox();
+            this.imguser = new System.Windows.Forms.PictureBox();
             this.lbmtp = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.imglogo = new System.Windows.Forms.PictureBox();
             this.lbwelcome = new System.Windows.Forms.Label();
             this.btreport = new System.Windows.Forms.Button();
             this.btliststock = new System.Windows.Forms.Button();
             this.btListrawmaterials = new System.Windows.Forms.Button();
             this.btoder = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.imgreturn = new System.Windows.Forms.PictureBox();
-            this.imguser = new System.Windows.Forms.PictureBox();
-            this.imglogo = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgreturn)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbNotificationMenu)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imguser)).BeginInit();
+            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.imglogo)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(60)))), ((int)(((byte)(47)))));
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Controls.Add(this.imgreturn);
+            this.panel1.Controls.Add(this.pbNotificationMenu);
             this.panel1.Controls.Add(this.imguser);
             this.panel1.Controls.Add(this.lbmtp);
             resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
+            // 
+            // pbNotificationMenu
+            // 
+            this.pbNotificationMenu.Image = global::Project.Properties.Resources.icons8_bell_52;
+            resources.ApplyResources(this.pbNotificationMenu, "pbNotificationMenu");
+            this.pbNotificationMenu.Name = "pbNotificationMenu";
+            this.pbNotificationMenu.TabStop = false;
+            this.pbNotificationMenu.Click += new System.EventHandler(this.pbNotificationMenu_Click);
+            // 
+            // imguser
+            // 
+            this.imguser.Image = global::Project.Properties.Resources.icons8_user_58;
+            resources.ApplyResources(this.imguser, "imguser");
+            this.imguser.Name = "imguser";
+            this.imguser.TabStop = false;
+            this.imguser.Click += new System.EventHandler(this.imguser_Click);
             // 
             // lbmtp
             // 
@@ -72,6 +85,12 @@
             this.panel2.Controls.Add(this.lbwelcome);
             resources.ApplyResources(this.panel2, "panel2");
             this.panel2.Name = "panel2";
+            // 
+            // imglogo
+            // 
+            resources.ApplyResources(this.imglogo, "imglogo");
+            this.imglogo.Name = "imglogo";
+            this.imglogo.TabStop = false;
             // 
             // lbwelcome
             // 
@@ -119,35 +138,6 @@
             this.btoder.UseVisualStyleBackColor = false;
             this.btoder.Click += new System.EventHandler(this.btoder_Click);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Project.Properties.Resources.icons8_bell_52;
-            resources.ApplyResources(this.pictureBox1, "pictureBox1");
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.TabStop = false;
-            // 
-            // imgreturn
-            // 
-            this.imgreturn.Image = global::Project.Properties.Resources.icons8_left_50;
-            resources.ApplyResources(this.imgreturn, "imgreturn");
-            this.imgreturn.Name = "imgreturn";
-            this.imgreturn.TabStop = false;
-            this.imgreturn.Click += new System.EventHandler(this.imgreturn_Click);
-            // 
-            // imguser
-            // 
-            this.imguser.Image = global::Project.Properties.Resources.icons8_user_58;
-            resources.ApplyResources(this.imguser, "imguser");
-            this.imguser.Name = "imguser";
-            this.imguser.TabStop = false;
-            this.imguser.Click += new System.EventHandler(this.imguser_Click);
-            // 
-            // imglogo
-            // 
-            resources.ApplyResources(this.imglogo, "imglogo");
-            this.imglogo.Name = "imglogo";
-            this.imglogo.TabStop = false;
-            // 
             // MainForm
             // 
             this.BackColor = System.Drawing.Color.White;
@@ -162,11 +152,10 @@
             this.Name = "MainForm";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbNotificationMenu)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imguser)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgreturn)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imguser)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imglogo)).EndInit();
             this.ResumeLayout(false);
 
@@ -174,11 +163,10 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label lbmtp;
         private System.Windows.Forms.PictureBox imguser;
-        private System.Windows.Forms.PictureBox imgreturn;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox imglogo;
         private System.Windows.Forms.Label lbwelcome;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pbNotificationMenu;
         private System.Windows.Forms.Button btoder;
         private System.Windows.Forms.Button btListrawmaterials;
         private System.Windows.Forms.Button btliststock;

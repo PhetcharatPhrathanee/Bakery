@@ -12,9 +12,18 @@ namespace Project
 {
     public partial class CustomerConfirmOderForm : UserControl
     {
+        public UserControl PreviousControl { get; set; }
         public CustomerConfirmOderForm()
         {
             InitializeComponent();
+        }
+
+        private void imgreturn_Click(object sender, EventArgs e)
+        {
+            if (PreviousControl != null)
+            {
+                TestMain.FrmMain.ShowControl(PreviousControl);
+            }
         }
     }
 }

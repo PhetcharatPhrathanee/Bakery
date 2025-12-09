@@ -12,6 +12,7 @@ namespace Project
 {
     public partial class UserInformation : UserControl
     {
+        public UserControl PreviousControl { get; set; }
         public UserInformation()
         {
             InitializeComponent();
@@ -25,6 +26,27 @@ namespace Project
         private void cbshowpass2_CheckedChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void imgreturn_Click(object sender, EventArgs e)
+        {
+            if (PreviousControl != null)
+            {
+                TestMain.FrmMain.ShowControl(PreviousControl);
+            }
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pbNotificationMenu_Click(object sender, EventArgs e)
+        {
+            var nextForm = new NotificationMenuForm();
+            nextForm.PreviousControl = this;   // ส่งหน้าปัจจุบันเข้าไปให้รู้ว่ามาจากไหน
+
+            TestMain.FrmMain.ShowControl(nextForm);
         }
     }
 }

@@ -12,6 +12,7 @@ namespace Project
 {
     public partial class OderAllForm : UserControl
     {
+        public UserControl PreviousControl { get; set; }
         public OderAllForm()
         {
             InitializeComponent();
@@ -25,8 +26,13 @@ namespace Project
 
         private void imgreturn_Click(object sender, EventArgs e)
         {
-            TestMain.FrmMain.ShowControl(new MainForm());
+            // TestMain.FrmMain.ShowControl(new MainForm());
+            if (PreviousControl != null)
+            {
+                TestMain.FrmMain.ShowControl(PreviousControl);
+            }
         }
+
 
         private void hScrollBar1_Scroll(object sender, ScrollEventArgs e)
         {

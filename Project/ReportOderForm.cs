@@ -12,9 +12,19 @@ namespace Project
 {
     public partial class ReportOderForm : UserControl
     {
+        public UserControl PreviousControl { get; set; }
         public ReportOderForm()
         {
             InitializeComponent();
+        }
+
+        private void imgreturn_Click(object sender, EventArgs e)
+        {
+            if (PreviousControl != null)
+            {
+                TestMain.FrmMain.ShowControl(PreviousControl);
+            }
+
         }
     }
 }

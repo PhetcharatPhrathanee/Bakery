@@ -63,6 +63,16 @@ namespace Project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap basket_essential_basic_buy_ux_online_shopping_cart_ui_icon_219917 {
+            get {
+                object obj = ResourceManager.GetObject("basket_essential_basic_buy_ux_online_shopping_cart_ui_icon_219917", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cake_101954 {
             get {
                 object obj = ResourceManager.GetObject("cake_101954", resourceCulture);
@@ -106,6 +116,16 @@ namespace Project.Properties {
         internal static System.Drawing.Bitmap Cake_with_biscuit_8_icon_icons_com_52561__2_ {
             get {
                 object obj = ResourceManager.GetObject("Cake_with_biscuit_8_icon-icons.com_52561 (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cart_basket_shopping_icon_179220 {
+            get {
+                object obj = ResourceManager.GetObject("cart_basket_shopping_icon_179220", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -306,6 +326,16 @@ namespace Project.Properties {
         internal static System.Drawing.Bitmap icons8_user_58 {
             get {
                 object obj = ResourceManager.GetObject("icons8-user-58", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Logout_37127 {
+            get {
+                object obj = ResourceManager.GetObject("Logout_37127", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

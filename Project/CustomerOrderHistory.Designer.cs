@@ -1,6 +1,6 @@
 ﻿namespace Project
 {
-    partial class ReportMenuForm
+    partial class CustomerOrderHistory
     {
         /// <summary> 
         /// Required designer variable.
@@ -34,10 +34,8 @@
             this.imgreturn = new System.Windows.Forms.PictureBox();
             this.imguser = new System.Windows.Forms.PictureBox();
             this.lbmtp = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.btReportStock = new System.Windows.Forms.Button();
-            this.btReportFinancial = new System.Windows.Forms.Button();
-            this.btReportOder = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.lbCustomerStatus = new System.Windows.Forms.LinkLabel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgreturn)).BeginInit();
@@ -52,10 +50,10 @@
             this.panel1.Controls.Add(this.imgreturn);
             this.panel1.Controls.Add(this.imguser);
             this.panel1.Controls.Add(this.lbmtp);
-            this.panel1.Location = new System.Drawing.Point(0, 4);
+            this.panel1.Location = new System.Drawing.Point(0, 3);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1923, 118);
-            this.panel1.TabIndex = 21;
+            this.panel1.TabIndex = 22;
             // 
             // flowLayoutPanel1
             // 
@@ -108,55 +106,36 @@
             this.lbmtp.TabIndex = 2;
             this.lbmtp.Text = "เมธาพร เบเกอรี่";
             // 
-            // button1
+            // label1
             // 
-            this.button1.Location = new System.Drawing.Point(241, 227);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 22;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("TH Kodchasal", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(526, 237);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(209, 52);
+            this.label1.TabIndex = 27;
+            this.label1.Text = "ประวัติคำสั่งซื้อ";
             // 
-            // btReportStock
+            // lbCustomerStatus
             // 
-            this.btReportStock.Location = new System.Drawing.Point(187, 196);
-            this.btReportStock.Name = "btReportStock";
-            this.btReportStock.Size = new System.Drawing.Size(194, 88);
-            this.btReportStock.TabIndex = 23;
-            this.btReportStock.Text = "รายงานคลังสินค้า";
-            this.btReportStock.UseVisualStyleBackColor = true;
-            this.btReportStock.Click += new System.EventHandler(this.btReportStock_Click);
+            this.lbCustomerStatus.AutoSize = true;
+            this.lbCustomerStatus.Font = new System.Drawing.Font("TH Kodchasal", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbCustomerStatus.Location = new System.Drawing.Point(796, 348);
+            this.lbCustomerStatus.Name = "lbCustomerStatus";
+            this.lbCustomerStatus.Size = new System.Drawing.Size(129, 31);
+            this.lbCustomerStatus.TabIndex = 28;
+            this.lbCustomerStatus.TabStop = true;
+            this.lbCustomerStatus.Text = "สถานะคำสั่งซื้อ";
+            this.lbCustomerStatus.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lbCustomerStatus_LinkClicked);
             // 
-            // btReportFinancial
-            // 
-            this.btReportFinancial.Location = new System.Drawing.Point(187, 317);
-            this.btReportFinancial.Name = "btReportFinancial";
-            this.btReportFinancial.Size = new System.Drawing.Size(194, 88);
-            this.btReportFinancial.TabIndex = 24;
-            this.btReportFinancial.Text = "รายงานการเงิน";
-            this.btReportFinancial.UseVisualStyleBackColor = true;
-            this.btReportFinancial.Click += new System.EventHandler(this.btReportFinancial_Click);
-            // 
-            // btReportOder
-            // 
-            this.btReportOder.Location = new System.Drawing.Point(187, 450);
-            this.btReportOder.Name = "btReportOder";
-            this.btReportOder.Size = new System.Drawing.Size(194, 88);
-            this.btReportOder.TabIndex = 25;
-            this.btReportOder.Text = "รายงานคำสั่งซื้อ";
-            this.btReportOder.UseVisualStyleBackColor = true;
-            this.btReportOder.Click += new System.EventHandler(this.btReportOder_Click);
-            // 
-            // ReportMenuForm
+            // CustomerOrderHistory
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.btReportOder);
-            this.Controls.Add(this.btReportFinancial);
-            this.Controls.Add(this.btReportStock);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.lbCustomerStatus);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
-            this.Name = "ReportMenuForm";
+            this.Name = "CustomerOrderHistory";
             this.Size = new System.Drawing.Size(1920, 1020);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -164,6 +143,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.imgreturn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imguser)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -175,9 +155,7 @@
         private System.Windows.Forms.PictureBox imgreturn;
         private System.Windows.Forms.PictureBox imguser;
         private System.Windows.Forms.Label lbmtp;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button btReportStock;
-        private System.Windows.Forms.Button btReportFinancial;
-        private System.Windows.Forms.Button btReportOder;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.LinkLabel lbCustomerStatus;
     }
 }

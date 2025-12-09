@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace Project
 {
-    public partial class ReportFinancialForm : UserControl
+    public partial class CustomerOrderHistory : UserControl
     {
         public UserControl PreviousControl { get; set; }
-        public ReportFinancialForm()
+        public CustomerOrderHistory()
         {
             InitializeComponent();
         }
@@ -24,7 +24,14 @@ namespace Project
             {
                 TestMain.FrmMain.ShowControl(PreviousControl);
             }
+        }
 
+        private void lbCustomerStatus_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            var nextForm = new CustomerStatusOrderForm();
+            nextForm.PreviousControl = this;   // ส่งหน้าปัจจุบันเข้าไปให้รู้ว่ามาจากไหน
+
+            TestMain.FrmMain.ShowControl(nextForm);
         }
     }
 }

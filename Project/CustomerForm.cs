@@ -16,5 +16,29 @@ namespace Project
         {
             InitializeComponent();
         }
+
+        private void imguser_Click(object sender, EventArgs e)
+        {
+            var nextForm = new UserInformation();
+            nextForm.PreviousControl = this;   // ส่งหน้าปัจจุบันเข้าไปให้รู้ว่ามาจากไหน
+
+            TestMain.FrmMain.ShowControl(nextForm);
+        }
+
+        private void btCustomerProduct_Click(object sender, EventArgs e)
+        {
+            var nextForm = new CustomerProductForm();
+            nextForm.PreviousControl = this;   // ส่งหน้าปัจจุบันเข้าไปให้รู้ว่ามาจากไหน
+
+            TestMain.FrmMain.ShowControl(nextForm);
+        }
+
+        private void btCustomerOrderHistory_Click(object sender, EventArgs e)
+        {
+            var nextForm = new CustomerOrderHistory();
+            nextForm.PreviousControl = this;   // ส่งหน้าปัจจุบันเข้าไปให้รู้ว่ามาจากไหน
+
+            TestMain.FrmMain.ShowControl(nextForm);
+        }
     }
 }

@@ -20,8 +20,13 @@ namespace Project
 
         private void imguser_Click(object sender, EventArgs e)
         {
-            TestMain.FrmMain.ShowControl(new UserInformation());
+            //TestMain.FrmMain.ShowControl(new UserInformation());
+            var nextForm = new UserInformation();
+            nextForm.PreviousControl = this;   // ส่งหน้าปัจจุบันเข้าไปให้รู้ว่ามาจากไหน
+
+            TestMain.FrmMain.ShowControl(nextForm);
         }
+        
 
         private void imgreturn_Click(object sender, EventArgs e)
         {
@@ -30,22 +35,46 @@ namespace Project
 
         private void btoder_Click(object sender, EventArgs e)
         {
-            TestMain.FrmMain.ShowControl(new OderAllForm());
+            //TestMain.FrmMain.ShowControl(new OderAllForm());
+            var nextForm = new OrderNewForm();
+            nextForm.PreviousControl = this;   // ส่งหน้าปัจจุบันเข้าไปให้รู้ว่ามาจากไหน
+
+            TestMain.FrmMain.ShowControl(nextForm);
         }
 
         private void btListrawmaterials_Click(object sender, EventArgs e)
         {
-            TestMain.FrmMain.ShowControl(new MaterialForm());
+            // TestMain.FrmMain.ShowControl(new MaterialForm());
+            var nextForm = new MaterialForm();
+            nextForm.PreviousControl = this;   // ส่งหน้าปัจจุบันเข้าไปให้รู้ว่ามาจากไหน
+
+            TestMain.FrmMain.ShowControl(nextForm);
         }
 
         private void btliststock_Click(object sender, EventArgs e)
         {
-            TestMain.FrmMain.ShowControl(new ReportStockForm());
+            //TestMain.FrmMain.ShowControl(new ProductForm());
+            var nextForm = new ProductForm();
+            nextForm.PreviousControl = this;   // ส่งหน้าปัจจุบันเข้าไปให้รู้ว่ามาจากไหน
+
+            TestMain.FrmMain.ShowControl(nextForm);
         }
 
         private void btreport_Click(object sender, EventArgs e)
         {
-            TestMain.FrmMain.ShowControl(new LoginForm());
+            //  TestMain.FrmMain.ShowControl(new ReportMenuForm());
+            var nextForm = new ReportMenuForm();
+            nextForm.PreviousControl = this;   // ส่งหน้าปัจจุบันเข้าไปให้รู้ว่ามาจากไหน
+
+            TestMain.FrmMain.ShowControl(nextForm);
+        }
+
+        private void pbNotificationMenu_Click(object sender, EventArgs e)
+        {
+            var nextForm = new NotificationMenuForm();
+            nextForm.PreviousControl = this;   // ส่งหน้าปัจจุบันเข้าไปให้รู้ว่ามาจากไหน
+
+            TestMain.FrmMain.ShowControl(nextForm);
         }
     }
 }
