@@ -36,15 +36,14 @@
             this.lbmtp = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.lborder = new System.Windows.Forms.Label();
-            this.btUnderpreparation = new System.Windows.Forms.Button();
-            this.btallorder = new System.Windows.Forms.Button();
-            this.btcomfirmorder = new System.Windows.Forms.Button();
-            this.btReadytoship = new System.Windows.Forms.Button();
-            this.btcompletedorder = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.btUnderpreparation = new System.Windows.Forms.Button();
+            this.btallorder = new System.Windows.Forms.Button();
+            this.btReadytoship = new System.Windows.Forms.Button();
+            this.btcompletedorder = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgreturn)).BeginInit();
@@ -139,65 +138,15 @@
             this.lborder.TabIndex = 0;
             this.lborder.Text = "คำสั่งซื้อ";
             // 
-            // btUnderpreparation
+            // label1
             // 
-            this.btUnderpreparation.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.btUnderpreparation.Font = new System.Drawing.Font("TH Kodchasal", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btUnderpreparation.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(60)))), ((int)(((byte)(47)))));
-            this.btUnderpreparation.Location = new System.Drawing.Point(20, 341);
-            this.btUnderpreparation.Name = "btUnderpreparation";
-            this.btUnderpreparation.Size = new System.Drawing.Size(180, 75);
-            this.btUnderpreparation.TabIndex = 23;
-            this.btUnderpreparation.Text = "กำลังจัดทำ";
-            this.btUnderpreparation.UseVisualStyleBackColor = false;
-            // 
-            // btallorder
-            // 
-            this.btallorder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(152)))), ((int)(((byte)(162)))));
-            this.btallorder.Font = new System.Drawing.Font("TH Kodchasal", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btallorder.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(60)))), ((int)(((byte)(47)))));
-            this.btallorder.Location = new System.Drawing.Point(20, 233);
-            this.btallorder.Name = "btallorder";
-            this.btallorder.Size = new System.Drawing.Size(180, 78);
-            this.btallorder.TabIndex = 22;
-            this.btallorder.Text = "รายการสั่งซื้อทั้งหมด";
-            this.btallorder.UseVisualStyleBackColor = false;
-            // 
-            // btcomfirmorder
-            // 
-            this.btcomfirmorder.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.btcomfirmorder.Font = new System.Drawing.Font("TH Kodchasal", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btcomfirmorder.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(60)))), ((int)(((byte)(47)))));
-            this.btcomfirmorder.Location = new System.Drawing.Point(20, 131);
-            this.btcomfirmorder.Name = "btcomfirmorder";
-            this.btcomfirmorder.Size = new System.Drawing.Size(180, 71);
-            this.btcomfirmorder.TabIndex = 21;
-            this.btcomfirmorder.Text = "คำสั่งซื้อใหม่";
-            this.btcomfirmorder.UseVisualStyleBackColor = false;
-            // 
-            // btReadytoship
-            // 
-            this.btReadytoship.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.btReadytoship.Font = new System.Drawing.Font("TH Kodchasal", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btReadytoship.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(60)))), ((int)(((byte)(47)))));
-            this.btReadytoship.Location = new System.Drawing.Point(20, 450);
-            this.btReadytoship.Name = "btReadytoship";
-            this.btReadytoship.Size = new System.Drawing.Size(180, 83);
-            this.btReadytoship.TabIndex = 24;
-            this.btReadytoship.Text = "พร้อมสำหรับจัดส่ง";
-            this.btReadytoship.UseVisualStyleBackColor = false;
-            // 
-            // btcompletedorder
-            // 
-            this.btcompletedorder.BackColor = System.Drawing.Color.LightGreen;
-            this.btcompletedorder.Font = new System.Drawing.Font("TH Kodchasal", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btcompletedorder.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(60)))), ((int)(((byte)(47)))));
-            this.btcompletedorder.Location = new System.Drawing.Point(20, 567);
-            this.btcompletedorder.Name = "btcompletedorder";
-            this.btcompletedorder.Size = new System.Drawing.Size(180, 80);
-            this.btcompletedorder.TabIndex = 25;
-            this.btcompletedorder.Text = "จัดส่งสำเร็จเเล้ว";
-            this.btcompletedorder.UseVisualStyleBackColor = false;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("TH Kodchasal", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(566, 218);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(206, 39);
+            this.label1.TabIndex = 30;
+            this.label1.Text = "รายการคำสั่งซื้อใหม่";
             // 
             // panel3
             // 
@@ -206,20 +155,19 @@
             this.panel3.Controls.Add(this.pictureBox2);
             this.panel3.Controls.Add(this.btUnderpreparation);
             this.panel3.Controls.Add(this.btallorder);
-            this.panel3.Controls.Add(this.btcomfirmorder);
             this.panel3.Controls.Add(this.btReadytoship);
             this.panel3.Controls.Add(this.btcompletedorder);
             this.panel3.Location = new System.Drawing.Point(2, 193);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(222, 857);
-            this.panel3.TabIndex = 29;
+            this.panel3.TabIndex = 31;
             // 
             // pictureBox3
             // 
             this.pictureBox3.Image = global::Project.Properties.Resources.ดอกไม้_removebg_preview;
-            this.pictureBox3.Location = new System.Drawing.Point(-143, 666);
+            this.pictureBox3.Location = new System.Drawing.Point(-143, 561);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(474, 493);
+            this.pictureBox3.Size = new System.Drawing.Size(474, 634);
             this.pictureBox3.TabIndex = 27;
             this.pictureBox3.TabStop = false;
             // 
@@ -232,25 +180,67 @@
             this.pictureBox2.TabIndex = 26;
             this.pictureBox2.TabStop = false;
             // 
-            // label1
+            // btUnderpreparation
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("TH Kodchasal", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(566, 218);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(206, 39);
-            this.label1.TabIndex = 30;
-            this.label1.Text = "รายการคำสั่งซื้อใหม่";
+            this.btUnderpreparation.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.btUnderpreparation.Font = new System.Drawing.Font("TH Kodchasal", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btUnderpreparation.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(60)))), ((int)(((byte)(47)))));
+            this.btUnderpreparation.Location = new System.Drawing.Point(20, 241);
+            this.btUnderpreparation.Name = "btUnderpreparation";
+            this.btUnderpreparation.Size = new System.Drawing.Size(180, 80);
+            this.btUnderpreparation.TabIndex = 23;
+            this.btUnderpreparation.Text = "กำลังจัดทำ";
+            this.btUnderpreparation.UseVisualStyleBackColor = false;
+            this.btUnderpreparation.Click += new System.EventHandler(this.btUnderpreparation_Click);
+            // 
+            // btallorder
+            // 
+            this.btallorder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(152)))), ((int)(((byte)(162)))));
+            this.btallorder.Font = new System.Drawing.Font("TH Kodchasal", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btallorder.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(60)))), ((int)(((byte)(47)))));
+            this.btallorder.Location = new System.Drawing.Point(20, 131);
+            this.btallorder.Name = "btallorder";
+            this.btallorder.Size = new System.Drawing.Size(180, 80);
+            this.btallorder.TabIndex = 21;
+            this.btallorder.Text = "รายการสั่งซื้อทั้งหมด";
+            this.btallorder.UseVisualStyleBackColor = false;
+            this.btallorder.Click += new System.EventHandler(this.btallorder_Click);
+            // 
+            // btReadytoship
+            // 
+            this.btReadytoship.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btReadytoship.Font = new System.Drawing.Font("TH Kodchasal", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btReadytoship.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(60)))), ((int)(((byte)(47)))));
+            this.btReadytoship.Location = new System.Drawing.Point(20, 351);
+            this.btReadytoship.Name = "btReadytoship";
+            this.btReadytoship.Size = new System.Drawing.Size(180, 80);
+            this.btReadytoship.TabIndex = 24;
+            this.btReadytoship.Text = "พร้อมสำหรับจัดส่ง";
+            this.btReadytoship.UseVisualStyleBackColor = false;
+            this.btReadytoship.Click += new System.EventHandler(this.btReadytoship_Click);
+            // 
+            // btcompletedorder
+            // 
+            this.btcompletedorder.BackColor = System.Drawing.Color.LightGreen;
+            this.btcompletedorder.Font = new System.Drawing.Font("TH Kodchasal", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btcompletedorder.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(60)))), ((int)(((byte)(47)))));
+            this.btcompletedorder.Location = new System.Drawing.Point(20, 461);
+            this.btcompletedorder.Name = "btcompletedorder";
+            this.btcompletedorder.Size = new System.Drawing.Size(180, 80);
+            this.btcompletedorder.TabIndex = 25;
+            this.btcompletedorder.Text = "จัดส่งสำเร็จเเล้ว";
+            this.btcompletedorder.UseVisualStyleBackColor = false;
+            this.btcompletedorder.Click += new System.EventHandler(this.btcompletedorder_Click);
             // 
             // OrderNewForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.panel3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel3);
             this.Name = "OrderNewForm";
             this.Size = new System.Drawing.Size(1920, 1020);
             this.panel1.ResumeLayout(false);
@@ -278,14 +268,13 @@
         private System.Windows.Forms.Label lbmtp;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label lborder;
-        private System.Windows.Forms.Button btUnderpreparation;
-        private System.Windows.Forms.Button btallorder;
-        private System.Windows.Forms.Button btcomfirmorder;
-        private System.Windows.Forms.Button btReadytoship;
-        private System.Windows.Forms.Button btcompletedorder;
+        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btUnderpreparation;
+        private System.Windows.Forms.Button btallorder;
+        private System.Windows.Forms.Button btReadytoship;
+        private System.Windows.Forms.Button btcompletedorder;
     }
 }

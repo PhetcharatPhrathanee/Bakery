@@ -11,9 +11,17 @@ namespace Project
         {
             login = this;
             InitializeComponent();
-        }
+            txtPass.KeyDown += TxtPass_KeyDown;
 
-        private void button1_Click(object sender, EventArgs e)
+        }
+        private void TxtPass_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                btConfirm.PerformClick();
+            }
+        }
+        private void btConfirm_Click(object sender, EventArgs e)
         {
             // ตรวจสอบ admin
             if (txtUser.Text == "admin" && txtPass.Text == "1234")
@@ -39,6 +47,16 @@ namespace Project
         private void lbRegisterForm_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             TestMain.FrmMain.ShowControl(new RegisterForm());
+        }
+
+        private void LoginForm_Load(object sender, EventArgs e)
+        {
+           txtPass.UseSystemPasswordChar = true;
+        }
+
+        private void cbshowpass_CheckedChanged(object sender, EventArgs e)
+        {
+            txtPass.UseSystemPasswordChar = !cbshowpass.Checked;
         }
     }
 }

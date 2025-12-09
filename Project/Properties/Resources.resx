@@ -121,8 +121,8 @@
   <data name="icons8-back-55" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-back-55.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cart_basket_shopping_icon_179220" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cart_basket_shopping_icon_179220.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-back-58" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-back-58.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-report-100" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-report-100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -154,11 +154,17 @@
   <data name="Cake_with_biscuit_8_icon-icons.com_52561 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cake_with_biscuit_8_icon-icons.com_52561 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="email-envelope-outline-shape-with-rounded-corners_icon-icons.com_56530" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\email-envelope-outline-shape-with-rounded-corners_icon-icons.com_56530.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-user-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-user-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-left-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-left-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="สีแดง_สีชมพู_สีครีม_น่ารัก_เรโทร_สดใส_ขนมหวาน_คาเฟ่_โลโก้-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\สีแดง_สีชมพู_สีครีม_น่ารัก_เรโทร_สดใส_ขนมหวาน_คาเฟ่_โลโก้-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logout_37127" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logout_37127.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cart_basket_shopping_icon_179220" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cart_basket_shopping_icon_179220.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="เมธาพร" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\เมธาพร.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -171,9 +177,6 @@
   </data>
   <data name="icons8-user-58" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-user-58.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-new-product-100 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-new-product-100 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="phone-handset_icon-icons.com_48252" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\phone-handset_icon-icons.com_48252.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -223,8 +226,8 @@
   <data name="cake_101954" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cake_101954.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-user-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-user-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="email-envelope-outline-shape-with-rounded-corners_icon-icons.com_56530" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\email-envelope-outline-shape-with-rounded-corners_icon-icons.com_56530.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ดอกไม้" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ดอกไม้.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -235,14 +238,14 @@
   <data name="icons8-back-54" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-back-54.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-back-58" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-back-58.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-new-product-100 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-new-product-100 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ดอกไม้-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ดอกไม้-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="สีแดง_สีชมพู_สีครีม_น่ารัก_เรโทร_สดใส_ขนมหวาน_คาเฟ่_โลโก้-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\สีแดง_สีชมพู_สีครีม_น่ารัก_เรโทร_สดใส_ขนมหวาน_คาเฟ่_โลโก้-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-left-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-left-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-bell-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-bell-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -256,7 +259,7 @@
   <data name="icons8-left-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-left-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Logout_37127" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Logout_37127.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Logout_371271" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logout_371271.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

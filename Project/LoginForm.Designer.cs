@@ -34,7 +34,7 @@
             this.btRegisterForm = new System.Windows.Forms.Button();
             this.lbwelcome = new System.Windows.Forms.Label();
             this.txtUser = new System.Windows.Forms.TextBox();
-            this.ยืนยัน = new System.Windows.Forms.Button();
+            this.btConfirm = new System.Windows.Forms.Button();
             this.lbuser = new System.Windows.Forms.Label();
             this.txtPass = new System.Windows.Forms.TextBox();
             this.lbpass = new System.Windows.Forms.Label();
@@ -118,19 +118,20 @@
             this.txtUser.Size = new System.Drawing.Size(398, 50);
             this.txtUser.TabIndex = 1;
             // 
-            // ยืนยัน
+            // btConfirm
             // 
-            this.ยืนยัน.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.ยืนยัน.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(141)))), ((int)(((byte)(25)))));
-            this.ยืนยัน.Font = new System.Drawing.Font("TH Kodchasal", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.ยืนยัน.ForeColor = System.Drawing.Color.Snow;
-            this.ยืนยัน.Location = new System.Drawing.Point(72, 387);
-            this.ยืนยัน.Name = "ยืนยัน";
-            this.ยืนยัน.Size = new System.Drawing.Size(398, 72);
-            this.ยืนยัน.TabIndex = 0;
-            this.ยืนยัน.Text = "ยืนยัน";
-            this.ยืนยัน.UseVisualStyleBackColor = false;
-            this.ยืนยัน.Click += new System.EventHandler(this.button1_Click);
+            this.btConfirm.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btConfirm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(141)))), ((int)(((byte)(25)))));
+            this.btConfirm.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btConfirm.Font = new System.Drawing.Font("TH Kodchasal", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.btConfirm.ForeColor = System.Drawing.Color.Snow;
+            this.btConfirm.Location = new System.Drawing.Point(72, 387);
+            this.btConfirm.Name = "btConfirm";
+            this.btConfirm.Size = new System.Drawing.Size(398, 72);
+            this.btConfirm.TabIndex = 0;
+            this.btConfirm.Text = "ยืนยัน";
+            this.btConfirm.UseVisualStyleBackColor = false;
+            this.btConfirm.Click += new System.EventHandler(this.btConfirm_Click);
             // 
             // lbuser
             // 
@@ -208,7 +209,7 @@
             this.panel3.Controls.Add(this.imgpassword);
             this.panel3.Controls.Add(this.label6);
             this.panel3.Controls.Add(this.txtPass);
-            this.panel3.Controls.Add(this.ยืนยัน);
+            this.panel3.Controls.Add(this.btConfirm);
             this.panel3.Controls.Add(this.imguser);
             this.panel3.Controls.Add(this.lbpass);
             this.panel3.Controls.Add(this.lbuser);
@@ -229,6 +230,7 @@
             this.cbshowpass.TabIndex = 14;
             this.cbshowpass.Text = "ดูรหัสผ่าน";
             this.cbshowpass.UseVisualStyleBackColor = true;
+            this.cbshowpass.CheckedChanged += new System.EventHandler(this.cbshowpass_CheckedChanged);
             // 
             // linklbForgotpass
             // 
@@ -320,6 +322,7 @@
             this.Controls.Add(this.ดอกไม้);
             this.Name = "LoginForm";
             this.Size = new System.Drawing.Size(1920, 1020);
+            this.Load += new System.EventHandler(this.LoginForm_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -343,7 +346,7 @@
         private System.Windows.Forms.Button btRegisterForm;
         private System.Windows.Forms.Label lbmtp;
         private System.Windows.Forms.TextBox txtUser;
-        private System.Windows.Forms.Button ยืนยัน;
+        private System.Windows.Forms.Button btConfirm;
         private System.Windows.Forms.Label lbuser;
         private System.Windows.Forms.TextBox txtPass;
         private System.Windows.Forms.Label lbpass;

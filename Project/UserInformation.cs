@@ -43,10 +43,7 @@ namespace Project
 
         private void pbNotificationMenu_Click(object sender, EventArgs e)
         {
-            var nextForm = new NotificationMenuForm();
-            nextForm.PreviousControl = this;   // ส่งหน้าปัจจุบันเข้าไปให้รู้ว่ามาจากไหน
-
-            TestMain.FrmMain.ShowControl(nextForm);
+            
         }
     }
 }

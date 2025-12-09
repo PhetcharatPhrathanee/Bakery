@@ -18,12 +18,6 @@ namespace Project
             InitializeComponent();
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-
-        }
-
         private void imgreturn_Click(object sender, EventArgs e)
         {
             // TestMain.FrmMain.ShowControl(new MainForm());
@@ -33,20 +27,36 @@ namespace Project
             }
         }
 
-
-        private void hScrollBar1_Scroll(object sender, ScrollEventArgs e)
-        {
-
-        }
-
-        private void domainUpDown1_SelectedItemChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void btcompletedorder_Click(object sender, EventArgs e)
         {
+            var nextForm = new OderDoneForm();
+            nextForm.PreviousControl = this;   // ส่งหน้าปัจจุบันเข้าไปให้รู้ว่ามาจากไหน
 
+            TestMain.FrmMain.ShowControl(nextForm);
+        }
+
+        private void btUnderpreparation_Click(object sender, EventArgs e)
+        {
+            var nextForm = new OrderDoingForm();
+            nextForm.PreviousControl = this;   // ส่งหน้าปัจจุบันเข้าไปให้รู้ว่ามาจากไหน
+
+            TestMain.FrmMain.ShowControl(nextForm);
+        }
+
+        private void btcomfirmorder_Click(object sender, EventArgs e)
+        {
+            var nextForm = new OrderNewForm();
+            nextForm.PreviousControl = this;   // ส่งหน้าปัจจุบันเข้าไปให้รู้ว่ามาจากไหน
+
+            TestMain.FrmMain.ShowControl(nextForm);
+        }
+
+        private void btReadytoship_Click(object sender, EventArgs e)
+        {
+            var nextForm = new OrderReadyForm();
+            nextForm.PreviousControl = this;   // ส่งหน้าปัจจุบันเข้าไปให้รู้ว่ามาจากไหน
+
+            TestMain.FrmMain.ShowControl(nextForm);
         }
     }
 }

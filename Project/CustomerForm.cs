@@ -40,5 +40,10 @@ namespace Project
 
             TestMain.FrmMain.ShowControl(nextForm);
         }
+
+        private void btLogout_Click(object sender, EventArgs e)
+        {
+            TestMain.FrmMain.ShowControl(new LoginForm());
+        }
     }
 }

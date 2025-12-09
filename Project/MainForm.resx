@@ -223,54 +223,6 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;imglogo.Name" xml:space="preserve">
-    <value>imglogo</value>
-  </data>
-  <data name="&gt;&gt;imglogo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;imglogo.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;imglogo.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;lbwelcome.Name" xml:space="preserve">
-    <value>lbwelcome</value>
-  </data>
-  <data name="&gt;&gt;lbwelcome.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lbwelcome.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;lbwelcome.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 114</value>
-  </data>
-  <data name="panel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>844, 947</value>
-  </data>
-  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
-  </data>
-  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
   <data name="imglogo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
@@ -4413,6 +4365,60 @@
   <data name="&gt;&gt;lbwelcome.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 114</value>
+  </data>
+  <data name="panel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>844, 947</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btLogout.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btLogout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1814, 891</value>
+  </data>
+  <data name="btLogout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 115</value>
+  </data>
+  <data name="btLogout.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="btLogout.Text" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="btLogout.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="&gt;&gt;btLogout.Name" xml:space="preserve">
+    <value>btLogout</value>
+  </data>
+  <data name="&gt;&gt;btLogout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btLogout.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btLogout.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="btreport.Font" type="System.Drawing.Font, System.Drawing">
     <value>TH Kodchasal, 30pt, style=Bold</value>
   </data>
@@ -4444,7 +4450,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btreport.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="btliststock.Font" type="System.Drawing.Font, System.Drawing">
     <value>TH Kodchasal, 30pt, style=Bold</value>
@@ -4477,7 +4483,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btliststock.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="btListrawmaterials.Font" type="System.Drawing.Font, System.Drawing">
     <value>TH Kodchasal, 30pt, style=Bold</value>
@@ -4510,7 +4516,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btListrawmaterials.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="btoder.Font" type="System.Drawing.Font, System.Drawing">
     <value>TH Kodchasal, 30pt, style=Bold</value>
@@ -4543,7 +4549,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btoder.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

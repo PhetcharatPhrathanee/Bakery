@@ -156,6 +156,12 @@
     <Compile Include="OrderNewForm.Designer.cs">
       <DependentUpon>OrderNewForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="OrderReadyForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OrderReadyForm.Designer.cs">
+      <DependentUpon>OrderReadyForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="ReportMenuForm.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -260,6 +266,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="OrderNewForm.resx">
       <DependentUpon>OrderNewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderReadyForm.resx">
+      <DependentUpon>OrderReadyForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProductForm.resx">
       <DependentUpon>ProductForm.cs</DependentUpon>
@@ -445,6 +454,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\cart_basket_shopping_icon_179220.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logout_371271.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

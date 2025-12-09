@@ -343,6 +343,16 @@ namespace Project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Logout_371271 {
+            get {
+                object obj = ResourceManager.GetObject("Logout_371271", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap password_protect_secure_security_privacy_lock_padlock_icon_219328 {
             get {
                 object obj = ResourceManager.GetObject("password_protect_secure_security_privacy_lock_padlock_icon_219328", resourceCulture);

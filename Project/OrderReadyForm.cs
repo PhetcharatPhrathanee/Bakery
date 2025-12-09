@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace Project
 {
-    public partial class OrderNewForm : UserControl
+    public partial class OrderReadyForm : UserControl
     {
         public UserControl PreviousControl { get; set; }
-        public OrderNewForm()
+        public OrderReadyForm()
         {
             InitializeComponent();
         }
@@ -42,17 +42,18 @@ namespace Project
             TestMain.FrmMain.ShowControl(nextForm);
         }
 
-        private void btReadytoship_Click(object sender, EventArgs e)
+        
+        private void btcompletedorder_Click(object sender, EventArgs e)
         {
-            var nextForm = new OrderReadyForm();
+            var nextForm = new OderDoneForm();
             nextForm.PreviousControl = this;   // ส่งหน้าปัจจุบันเข้าไปให้รู้ว่ามาจากไหน
 
             TestMain.FrmMain.ShowControl(nextForm);
         }
 
-        private void btcompletedorder_Click(object sender, EventArgs e)
+        private void btcomfirmorder_Click(object sender, EventArgs e)
         {
-            var nextForm = new OderDoneForm();
+            var nextForm = new OrderNewForm();
             nextForm.PreviousControl = this;   // ส่งหน้าปัจจุบันเข้าไปให้รู้ว่ามาจากไหน
 
             TestMain.FrmMain.ShowControl(nextForm);

@@ -35,6 +35,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btCustomerProduct = new System.Windows.Forms.Button();
             this.btCustomerOrderHistory = new System.Windows.Forms.Button();
+            this.btLogout = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbNotificationMenu)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imguser)).BeginInit();
@@ -115,10 +116,25 @@
             this.btCustomerOrderHistory.UseVisualStyleBackColor = true;
             this.btCustomerOrderHistory.Click += new System.EventHandler(this.btCustomerOrderHistory_Click);
             // 
+            // btLogout
+            // 
+            this.btLogout.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btLogout.Image = global::Project.Properties.Resources.Logout_371271;
+            this.btLogout.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.btLogout.Location = new System.Drawing.Point(1507, 573);
+            this.btLogout.Name = "btLogout";
+            this.btLogout.Size = new System.Drawing.Size(93, 115);
+            this.btLogout.TabIndex = 29;
+            this.btLogout.Text = "Logout";
+            this.btLogout.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btLogout.UseVisualStyleBackColor = true;
+            this.btLogout.Click += new System.EventHandler(this.btLogout_Click);
+            // 
             // CustomerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.btLogout);
             this.Controls.Add(this.btCustomerOrderHistory);
             this.Controls.Add(this.btCustomerProduct);
             this.Controls.Add(this.label1);
@@ -143,5 +159,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btCustomerProduct;
         private System.Windows.Forms.Button btCustomerOrderHistory;
+        private System.Windows.Forms.Button btLogout;
     }
 }
