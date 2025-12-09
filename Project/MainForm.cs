@@ -30,7 +30,7 @@ namespace Project
 
         private void btoder_Click(object sender, EventArgs e)
         {
-            TestMain.FrmMain.ShowControl(new ReportOderForm());
+            TestMain.FrmMain.ShowControl(new OderAllForm());
         }
 
         private void btListrawmaterials_Click(object sender, EventArgs e)

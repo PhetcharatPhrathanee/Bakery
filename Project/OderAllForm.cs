@@ -16,5 +16,31 @@ namespace Project
         {
             InitializeComponent();
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+
+        }
+
+        private void imgreturn_Click(object sender, EventArgs e)
+        {
+            TestMain.FrmMain.ShowControl(new MainForm());
+        }
+
+        private void hScrollBar1_Scroll(object sender, ScrollEventArgs e)
+        {
+
+        }
+
+        private void domainUpDown1_SelectedItemChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btcompletedorder_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
