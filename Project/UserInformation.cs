@@ -16,5 +16,15 @@ namespace Project
         {
             InitializeComponent();
         }
+
+        private void lbpass_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cbshowpass2_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -343,6 +343,16 @@ namespace Project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap phone_handset_icon_icons_com_48252 {
+            get {
+                object obj = ResourceManager.GetObject("phone-handset_icon-icons.com_48252", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap user_account_icon_145918 {
             get {
                 object obj = ResourceManager.GetObject("user_account_icon_145918", resourceCulture);
@@ -456,6 +466,16 @@ namespace Project.Properties {
         internal static System.Drawing.Bitmap สีแดง_สีชมพู_สีครีม_น่ารัก_เรโทร_สดใส_ขนมหวาน_คาเฟ่_โลโก้__2__removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("สีแดง_สีชมพู_สีครีม_น่ารัก_เรโทร_สดใส_ขนมหวาน_คาเฟ่_โลโก้__2_-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap สีแดง_สีชมพู_สีครีม_น่ารัก_เรโทร_สดใส_ขนมหวาน_คาเฟ่_โลโก้__2_1 {
+            get {
+                object obj = ResourceManager.GetObject("สีแดง สีชมพู สีครีม น่ารัก เรโทร สดใส ขนมหวาน คาเฟ่ โลโก้ (2)1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

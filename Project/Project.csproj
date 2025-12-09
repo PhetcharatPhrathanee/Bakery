@@ -425,5 +425,11 @@
   <ItemGroup>
     <None Include="Resources\icons8-cake-100.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phone-handset_icon-icons.com_48252.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\สีแดง สีชมพู สีครีม น่ารัก เรโทร สดใส ขนมหวาน คาเฟ่ โลโก้ %282%291.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
