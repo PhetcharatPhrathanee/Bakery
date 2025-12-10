@@ -458,5 +458,8 @@
   <ItemGroup>
     <None Include="Resources\Logout_371271.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\สีแดง สีชมพู สีครีม น่ารัก เรโทร สดใส ขนมหวาน คาเฟ่ โลโก้ %283%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

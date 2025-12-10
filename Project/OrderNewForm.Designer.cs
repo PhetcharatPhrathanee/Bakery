@@ -38,10 +38,11 @@
             this.lborder = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.btallorder = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.btUnderpreparation = new System.Windows.Forms.Button();
-            this.btallorder = new System.Windows.Forms.Button();
+            this.btcomfirmorder = new System.Windows.Forms.Button();
             this.btReadytoship = new System.Windows.Forms.Button();
             this.btcompletedorder = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
@@ -151,21 +152,35 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(240)))), ((int)(((byte)(232)))));
+            this.panel3.Controls.Add(this.btallorder);
             this.panel3.Controls.Add(this.pictureBox3);
             this.panel3.Controls.Add(this.pictureBox2);
             this.panel3.Controls.Add(this.btUnderpreparation);
-            this.panel3.Controls.Add(this.btallorder);
+            this.panel3.Controls.Add(this.btcomfirmorder);
             this.panel3.Controls.Add(this.btReadytoship);
             this.panel3.Controls.Add(this.btcompletedorder);
-            this.panel3.Location = new System.Drawing.Point(2, 193);
+            this.panel3.Location = new System.Drawing.Point(0, 194);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(222, 857);
             this.panel3.TabIndex = 31;
             // 
+            // btallorder
+            // 
+            this.btallorder.BackColor = System.Drawing.Color.White;
+            this.btallorder.Font = new System.Drawing.Font("TH Kodchasal", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btallorder.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(60)))), ((int)(((byte)(47)))));
+            this.btallorder.Location = new System.Drawing.Point(20, 131);
+            this.btallorder.Name = "btallorder";
+            this.btallorder.Size = new System.Drawing.Size(180, 80);
+            this.btallorder.TabIndex = 34;
+            this.btallorder.Text = "รายการสั่งซื้อทั้งหมด";
+            this.btallorder.UseVisualStyleBackColor = false;
+            this.btallorder.Click += new System.EventHandler(this.btallorder_Click);
+            // 
             // pictureBox3
             // 
             this.pictureBox3.Image = global::Project.Properties.Resources.ดอกไม้_removebg_preview;
-            this.pictureBox3.Location = new System.Drawing.Point(-143, 561);
+            this.pictureBox3.Location = new System.Drawing.Point(-143, 672);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(474, 634);
             this.pictureBox3.TabIndex = 27;
@@ -182,10 +197,10 @@
             // 
             // btUnderpreparation
             // 
-            this.btUnderpreparation.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.btUnderpreparation.BackColor = System.Drawing.Color.White;
             this.btUnderpreparation.Font = new System.Drawing.Font("TH Kodchasal", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btUnderpreparation.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(60)))), ((int)(((byte)(47)))));
-            this.btUnderpreparation.Location = new System.Drawing.Point(20, 241);
+            this.btUnderpreparation.Location = new System.Drawing.Point(20, 357);
             this.btUnderpreparation.Name = "btUnderpreparation";
             this.btUnderpreparation.Size = new System.Drawing.Size(180, 80);
             this.btUnderpreparation.TabIndex = 23;
@@ -193,25 +208,24 @@
             this.btUnderpreparation.UseVisualStyleBackColor = false;
             this.btUnderpreparation.Click += new System.EventHandler(this.btUnderpreparation_Click);
             // 
-            // btallorder
+            // btcomfirmorder
             // 
-            this.btallorder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(152)))), ((int)(((byte)(162)))));
-            this.btallorder.Font = new System.Drawing.Font("TH Kodchasal", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btallorder.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(60)))), ((int)(((byte)(47)))));
-            this.btallorder.Location = new System.Drawing.Point(20, 131);
-            this.btallorder.Name = "btallorder";
-            this.btallorder.Size = new System.Drawing.Size(180, 80);
-            this.btallorder.TabIndex = 21;
-            this.btallorder.Text = "รายการสั่งซื้อทั้งหมด";
-            this.btallorder.UseVisualStyleBackColor = false;
-            this.btallorder.Click += new System.EventHandler(this.btallorder_Click);
+            this.btcomfirmorder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btcomfirmorder.Font = new System.Drawing.Font("TH Kodchasal", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btcomfirmorder.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(60)))), ((int)(((byte)(47)))));
+            this.btcomfirmorder.Location = new System.Drawing.Point(20, 243);
+            this.btcomfirmorder.Name = "btcomfirmorder";
+            this.btcomfirmorder.Size = new System.Drawing.Size(180, 80);
+            this.btcomfirmorder.TabIndex = 21;
+            this.btcomfirmorder.Text = "คำสั่งซื้อใหม่";
+            this.btcomfirmorder.UseVisualStyleBackColor = false;
             // 
             // btReadytoship
             // 
-            this.btReadytoship.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btReadytoship.BackColor = System.Drawing.Color.White;
             this.btReadytoship.Font = new System.Drawing.Font("TH Kodchasal", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btReadytoship.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(60)))), ((int)(((byte)(47)))));
-            this.btReadytoship.Location = new System.Drawing.Point(20, 351);
+            this.btReadytoship.Location = new System.Drawing.Point(20, 470);
             this.btReadytoship.Name = "btReadytoship";
             this.btReadytoship.Size = new System.Drawing.Size(180, 80);
             this.btReadytoship.TabIndex = 24;
@@ -221,10 +235,10 @@
             // 
             // btcompletedorder
             // 
-            this.btcompletedorder.BackColor = System.Drawing.Color.LightGreen;
+            this.btcompletedorder.BackColor = System.Drawing.Color.White;
             this.btcompletedorder.Font = new System.Drawing.Font("TH Kodchasal", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btcompletedorder.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(60)))), ((int)(((byte)(47)))));
-            this.btcompletedorder.Location = new System.Drawing.Point(20, 461);
+            this.btcompletedorder.Location = new System.Drawing.Point(20, 586);
             this.btcompletedorder.Name = "btcompletedorder";
             this.btcompletedorder.Size = new System.Drawing.Size(180, 80);
             this.btcompletedorder.TabIndex = 25;
@@ -270,10 +284,11 @@
         private System.Windows.Forms.Label lborder;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Button btallorder;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button btUnderpreparation;
-        private System.Windows.Forms.Button btallorder;
+        private System.Windows.Forms.Button btcomfirmorder;
         private System.Windows.Forms.Button btReadytoship;
         private System.Windows.Forms.Button btcompletedorder;
     }

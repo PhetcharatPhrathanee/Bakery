@@ -343,7 +343,7 @@
             // 
             // imgRegisterForm
             // 
-            this.imgRegisterForm.Image = ((System.Drawing.Image)(resources.GetObject("imgRegisterForm.Image")));
+            this.imgRegisterForm.Image = global::Project.Properties.Resources.สีแดง_สีชมพู_สีครีม_น่ารัก_เรโทร_สดใส_ขนมหวาน_คาเฟ่_โลโก้__3_;
             this.imgRegisterForm.Location = new System.Drawing.Point(1136, 130);
             this.imgRegisterForm.Margin = new System.Windows.Forms.Padding(2);
             this.imgRegisterForm.Name = "imgRegisterForm";

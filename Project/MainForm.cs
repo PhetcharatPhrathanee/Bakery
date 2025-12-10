@@ -33,10 +33,10 @@ namespace Project
             TestMain.FrmMain.ShowControl(new LoginForm());
         }
 
-        private void btoder_Click(object sender, EventArgs e)
+        private void btorder_Click(object sender, EventArgs e)
         {
             //TestMain.FrmMain.ShowControl(new OderAllForm());
-            var nextForm = new OrderNewForm();
+            var nextForm = new OderAllForm();
             nextForm.PreviousControl = this;   // ส่งหน้าปัจจุบันเข้าไปให้รู้ว่ามาจากไหน
 
             TestMain.FrmMain.ShowControl(nextForm);
@@ -81,5 +81,7 @@ namespace Project
         {
             TestMain.FrmMain.ShowControl(new LoginForm());
         }
+
+        
     }
 }
