@@ -25,7 +25,7 @@ namespace Project
 
         private void cbshowpass2_CheckedChanged(object sender, EventArgs e)
         {
-
+            txtPass.UseSystemPasswordChar = !cbshowpass2.Checked;
         }
 
         private void imgreturn_Click(object sender, EventArgs e)
@@ -44,6 +44,11 @@ namespace Project
         private void pbNotificationMenu_Click(object sender, EventArgs e)
         {
             
+        }
+
+        private void cbshowpass1_CheckedChanged(object sender, EventArgs e)
+        {
+            txtPass.UseSystemPasswordChar = !cbshowpass1.Checked;
         }
     }
 }
