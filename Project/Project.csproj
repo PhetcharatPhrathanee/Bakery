@@ -84,6 +84,14 @@
     <Compile Include="CustomerStatusOrderForm.Designer.cs">
       <DependentUpon>CustomerStatusOrderForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="db_material_dataset.cs">
+      <DependentUpon>db_material_dataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="db_material_dataset.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>db_material_dataset.xsd</DependentUpon>
+    </Compile>
     <Compile Include="EditMaterialForm.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -304,6 +312,17 @@
     <EmbeddedResource Include="UserInformation.resx">
       <DependentUpon>UserInformation.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="db_material_dataset.xsc">
+      <DependentUpon>db_material_dataset.xsd</DependentUpon>
+    </None>
+    <None Include="db_material_dataset.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>db_material_dataset.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="db_material_dataset.xss">
+      <DependentUpon>db_material_dataset.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
