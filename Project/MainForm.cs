@@ -82,6 +82,9 @@ namespace Project
             TestMain.FrmMain.ShowControl(new LoginForm());
         }
 
-        
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
