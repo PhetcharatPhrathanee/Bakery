@@ -33,5 +33,10 @@ namespace Project
 
             TestMain.FrmMain.ShowControl(nextForm);
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
